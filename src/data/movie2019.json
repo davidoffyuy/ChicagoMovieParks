@@ -1,0 +1,4655 @@
+[
+    {
+        "day": "Thu",
+        "date": "2019-06-27T00:00:00.000",
+        "park": "Austin Town Hall",
+        "park_phone": "(773) 287-7658",
+        "title": "Black Panther",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "5610 W. Lake St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.76559245,
+                41.88784692
+            ]
+        },
+        ":@computed_region_rpca_8um6": "32",
+        ":@computed_region_vrxf_vc4k": "26",
+        ":@computed_region_6mkv_f3dw": "22216",
+        ":@computed_region_bdys_3d7i": "672",
+        ":@computed_region_43wa_7qmu": "7"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-07-08T00:00:00.000",
+        "park": "Calumet Park",
+        "park_phone": "(312) 747-6039",
+        "title": "The Wizard of Oz",
+        "cc": "Y",
+        "rating": "G",
+        "park_address": "9801 S. Ave G",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.53150812,
+                41.71772004
+            ]
+        },
+        ":@computed_region_rpca_8um6": "25",
+        ":@computed_region_vrxf_vc4k": "49",
+        ":@computed_region_6mkv_f3dw": "21202",
+        ":@computed_region_bdys_3d7i": "705",
+        ":@computed_region_43wa_7qmu": "47"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-08-01T00:00:00.000",
+        "park": "Harrison Park",
+        "park_phone": "(312) 746-5491",
+        "title": "Black Panther",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "1824 S. Wood St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67122476,
+                41.85692162
+            ]
+        },
+        ":@computed_region_rpca_8um6": "43",
+        ":@computed_region_vrxf_vc4k": "33",
+        ":@computed_region_6mkv_f3dw": "14920",
+        ":@computed_region_bdys_3d7i": "366",
+        ":@computed_region_43wa_7qmu": "26"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-07-18T00:00:00.000",
+        "park": "Hoard Playground Park",
+        "park_phone": "(773) 256-1903",
+        "title": "Black Panther",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "7201 S. Dobson Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.59928813,
+                41.7640317
+            ]
+        },
+        ":@computed_region_rpca_8um6": "61",
+        ":@computed_region_vrxf_vc4k": "67",
+        ":@computed_region_6mkv_f3dw": "21546",
+        ":@computed_region_bdys_3d7i": "121",
+        ":@computed_region_43wa_7qmu": "33"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-07T00:00:00.000",
+        "park": "Berger Park Cultural Center",
+        "park_phone": "(773) 761-0376",
+        "title": "Some Like It Hot",
+        "cc": "Y",
+        "rating": "NR",
+        "park_address": "6205 N. Sheridan Rd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65538421,
+                41.99480562
+            ]
+        },
+        ":@computed_region_rpca_8um6": "14",
+        ":@computed_region_vrxf_vc4k": "76",
+        ":@computed_region_6mkv_f3dw": "4451",
+        ":@computed_region_bdys_3d7i": "45",
+        ":@computed_region_43wa_7qmu": "16"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-07-13T00:00:00.000",
+        "park": "Skinner Park",
+        "park_phone": "(312) 746-5560",
+        "title": "Big Hero 6",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Museum of Science and Industry",
+        "park_address": "1331 W. Monroe St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.66077867,
+                41.88015941
+            ]
+        },
+        ":@computed_region_rpca_8um6": "44",
+        ":@computed_region_vrxf_vc4k": "29",
+        ":@computed_region_6mkv_f3dw": "14917",
+        ":@computed_region_bdys_3d7i": "91",
+        ":@computed_region_43wa_7qmu": "46"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-08-12T00:00:00.000",
+        "park": "River Park",
+        "park_phone": "(312) 742-7516",
+        "title": "Hotel Transylvania 3",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "5100 N. Francisco Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.70144885,
+                41.97406838
+            ]
+        },
+        ":@computed_region_rpca_8um6": "20",
+        ":@computed_region_vrxf_vc4k": "6",
+        ":@computed_region_6mkv_f3dw": "21849",
+        ":@computed_region_bdys_3d7i": "620",
+        ":@computed_region_43wa_7qmu": "24"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-07-24T00:00:00.000",
+        "park": "Kilbourn Park",
+        "park_phone": "(773) 685-3351",
+        "title": "El Reality",
+        "cc": "Y",
+        "rating": "NR",
+        "underwriter": "The International Latino Cultural Center",
+        "park_address": "3501 N. Kilbourn Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73951111,
+                41.94450485
+            ]
+        },
+        ":@computed_region_rpca_8um6": "21",
+        ":@computed_region_vrxf_vc4k": "16",
+        ":@computed_region_6mkv_f3dw": "22618",
+        ":@computed_region_bdys_3d7i": "328",
+        ":@computed_region_43wa_7qmu": "21"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-06-12T00:00:00.000",
+        "park": "Union Park",
+        "park_phone": "(312) 746-5494",
+        "title": "Black Panther",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "1501 W. Randolph St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.66428183,
+                41.88471128
+            ]
+        },
+        ":@computed_region_rpca_8um6": "44",
+        ":@computed_region_vrxf_vc4k": "29",
+        ":@computed_region_6mkv_f3dw": "14917",
+        ":@computed_region_bdys_3d7i": "63",
+        ":@computed_region_43wa_7qmu": "46"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-07-25T00:00:00.000",
+        "park": "Wicker Park",
+        "park_phone": "(312) 742-7553",
+        "title": "The Rainmaker",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Wicker Park Bucktown Chamber of Commerce Members and the Wicker Park Advisory Council",
+        "park_address": "1425 N. Damen Avenue",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67724924,
+                41.90795225
+            ]
+        },
+        ":@computed_region_rpca_8um6": "4",
+        ":@computed_region_vrxf_vc4k": "25",
+        ":@computed_region_6mkv_f3dw": "21560",
+        ":@computed_region_bdys_3d7i": "481",
+        ":@computed_region_43wa_7qmu": "41"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-23T00:00:00.000",
+        "park": "Shedd Park",
+        "park_phone": "(773) 762-3168",
+        "title": "The Star",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "3660 W. 23rd St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.71735905,
+                41.84992518
+            ]
+        },
+        ":@computed_region_rpca_8um6": "57",
+        ":@computed_region_vrxf_vc4k": "32",
+        ":@computed_region_6mkv_f3dw": "21569",
+        ":@computed_region_bdys_3d7i": "754",
+        ":@computed_region_43wa_7qmu": "28"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-14T00:00:00.000",
+        "park": "Pottawattomie Park",
+        "park_phone": "(773) 262-5835",
+        "title": "Ghostbusters (1984)",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "7340 N. Rogers Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67838211,
+                42.01468225
+            ]
+        },
+        ":@computed_region_rpca_8um6": "9",
+        ":@computed_region_vrxf_vc4k": "10",
+        ":@computed_region_6mkv_f3dw": "21853",
+        ":@computed_region_bdys_3d7i": "52",
+        ":@computed_region_43wa_7qmu": "5"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-06-29T00:00:00.000",
+        "park": "Rowan Park",
+        "park_phone": "(773) 646-3180",
+        "title": "Aquaman",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Forest Preserve District of Cook County",
+        "park_address": "11546 S. Avenue L",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.53661565,
+                41.68500208
+            ]
+        },
+        ":@computed_region_rpca_8um6": "25",
+        ":@computed_region_vrxf_vc4k": "49",
+        ":@computed_region_6mkv_f3dw": "21202",
+        ":@computed_region_bdys_3d7i": "603",
+        ":@computed_region_43wa_7qmu": "47"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-02T00:00:00.000",
+        "park": "Maplewood Playlot Park",
+        "park_phone": "(312) 742-7554",
+        "title": "Ralph Breaks the Internet",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "1640 N.Maplewood Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.69106224,
+                41.91149995
+            ]
+        },
+        ":@computed_region_rpca_8um6": "1",
+        ":@computed_region_vrxf_vc4k": "25",
+        ":@computed_region_6mkv_f3dw": "22535",
+        ":@computed_region_bdys_3d7i": "287",
+        ":@computed_region_43wa_7qmu": "41"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-08-07T00:00:00.000",
+        "park": "Heritage Green",
+        "park_phone": "(312) 746-5494",
+        "title": "Smallfoot",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The West Loop Community Organization",
+        "park_address": "610-30 W. Adams St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.6430924,
+                41.87937955
+            ]
+        },
+        ":@computed_region_rpca_8um6": "45",
+        ":@computed_region_vrxf_vc4k": "29",
+        ":@computed_region_6mkv_f3dw": "4452",
+        ":@computed_region_bdys_3d7i": "786",
+        ":@computed_region_43wa_7qmu": "36"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-08-14T00:00:00.000",
+        "park": "Hayes Park",
+        "park_phone": "(312) 747-6177",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Forest Preserve District of Cook County",
+        "park_address": "2936 W. 85th St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.69676781,
+                41.73874188
+            ]
+        },
+        ":@computed_region_rpca_8um6": "8",
+        ":@computed_region_vrxf_vc4k": "69",
+        ":@computed_region_6mkv_f3dw": "4300",
+        ":@computed_region_bdys_3d7i": "217",
+        ":@computed_region_43wa_7qmu": "30"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-08-17T00:00:00.000",
+        "park": "DuSable Museum of African American History",
+        "park_phone": "(312) 742-1134",
+        "title": "Trinity Goodheart",
+        "cc": "Y",
+        "rating": "NR",
+        "underwriter": "The DuSable Museum of African American History",
+        "park_address": "740 E. 56th Pl.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.60685252,
+                41.79248002
+            ]
+        },
+        ":@computed_region_rpca_8um6": "60",
+        ":@computed_region_vrxf_vc4k": "7",
+        ":@computed_region_6mkv_f3dw": "22260",
+        ":@computed_region_bdys_3d7i": "401",
+        ":@computed_region_43wa_7qmu": "4"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-06-26T00:00:00.000",
+        "park": "Horner Park",
+        "park_phone": "(773) 478-3499",
+        "title": "Wonder",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "JCC Chicago",
+        "park_address": "2741 W. Montrose Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.69770153,
+                41.9611441
+            ]
+        },
+        ":@computed_region_rpca_8um6": "39",
+        ":@computed_region_vrxf_vc4k": "16",
+        ":@computed_region_6mkv_f3dw": "21538",
+        ":@computed_region_bdys_3d7i": "214",
+        ":@computed_region_43wa_7qmu": "20"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-06-20T00:00:00.000",
+        "park": "Maggie Daley Park",
+        "park_phone": "(312) 742-3918",
+        "title": "Ralph Breaks the Internet",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "337 E. Randolph St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.61933906,
+                41.88422161
+            ]
+        },
+        ":@computed_region_rpca_8um6": "41",
+        ":@computed_region_vrxf_vc4k": "38",
+        ":@computed_region_6mkv_f3dw": "14309",
+        ":@computed_region_bdys_3d7i": "580",
+        ":@computed_region_43wa_7qmu": "36"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-06-24T00:00:00.000",
+        "park": "Harold Washington Playlot Park",
+        "park_phone": "(312) 747-6620",
+        "title": "Cabaret",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "5200 S. Hyde Park Blvd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.58450476,
+                41.80047033
+            ]
+        },
+        ":@computed_region_rpca_8um6": "10",
+        ":@computed_region_vrxf_vc4k": "8",
+        ":@computed_region_6mkv_f3dw": "21192",
+        ":@computed_region_bdys_3d7i": "405",
+        ":@computed_region_43wa_7qmu": "33"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-06-20T00:00:00.000",
+        "park": "McKiernan Playground Park",
+        "park_phone": "(312) 747-2883",
+        "title": "Avengers: Infinity War",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "10714 S. Sawyer Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.70242508,
+                41.69846337
+            ]
+        },
+        ":@computed_region_rpca_8um6": "33",
+        ":@computed_region_vrxf_vc4k": "73",
+        ":@computed_region_6mkv_f3dw": "4447",
+        ":@computed_region_bdys_3d7i": "369",
+        ":@computed_region_43wa_7qmu": "42"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-28T00:00:00.000",
+        "park": "Portage Park",
+        "park_phone": "(773) 685-7235",
+        "title": "Dirty Dancing",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "4100 N. Long Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.76228458,
+                41.95510787
+            ]
+        },
+        ":@computed_region_rpca_8um6": "21",
+        ":@computed_region_vrxf_vc4k": "15",
+        ":@computed_region_6mkv_f3dw": "22618",
+        ":@computed_region_bdys_3d7i": "260",
+        ":@computed_region_43wa_7qmu": "19"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-06-15T00:00:00.000",
+        "park": "Tuley Park",
+        "park_phone": "(312) 747-6763",
+        "title": "Night School",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "501 E. 90th Pl.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.61181885,
+                41.73008229
+            ]
+        },
+        ":@computed_region_rpca_8um6": "61",
+        ":@computed_region_vrxf_vc4k": "40",
+        ":@computed_region_6mkv_f3dw": "21546",
+        ":@computed_region_bdys_3d7i": "430",
+        ":@computed_region_43wa_7qmu": "43"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-16T00:00:00.000",
+        "park": "Tilton Park",
+        "park_phone": "(773) 287-0806",
+        "title": "Avengers: Infinity War",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "305 N. Kostner Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73548782,
+                41.88560476
+            ]
+        },
+        ":@computed_region_rpca_8um6": "30",
+        ":@computed_region_vrxf_vc4k": "27",
+        ":@computed_region_6mkv_f3dw": "21572",
+        ":@computed_region_bdys_3d7i": "619",
+        ":@computed_region_43wa_7qmu": "23"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-07-22T00:00:00.000",
+        "park": "Haas Park",
+        "park_phone": "(312) 742-7552",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "2402 N. Washtenaw Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.69512119,
+                41.92494165
+            ]
+        },
+        ":@computed_region_rpca_8um6": "1",
+        ":@computed_region_vrxf_vc4k": "23",
+        ":@computed_region_6mkv_f3dw": "22535",
+        ":@computed_region_bdys_3d7i": "468",
+        ":@computed_region_43wa_7qmu": "41"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-07-27T00:00:00.000",
+        "park": "Buttercup Playlot Park",
+        "park_phone": "(312) 742-7502",
+        "title": "Come Drink With Me",
+        "cc": "N",
+        "rating": "NR",
+        "park_address": "4901 N. Sheridan Rd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65473895,
+                41.97166865
+            ]
+        },
+        ":@computed_region_rpca_8um6": "15",
+        ":@computed_region_vrxf_vc4k": "31",
+        ":@computed_region_6mkv_f3dw": "22616",
+        ":@computed_region_bdys_3d7i": "635",
+        ":@computed_region_43wa_7qmu": "16"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-08-21T00:00:00.000",
+        "park": "Gill Park",
+        "park_phone": "(312) 742-7802",
+        "title": "Wonder",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "JCC Chicago",
+        "park_address": "825 W. Sheridan Rd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65067083,
+                41.9526213
+            ]
+        },
+        ":@computed_region_rpca_8um6": "53",
+        ":@computed_region_vrxf_vc4k": "57",
+        ":@computed_region_6mkv_f3dw": "21186",
+        ":@computed_region_bdys_3d7i": "83",
+        ":@computed_region_43wa_7qmu": "39"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-08-08T00:00:00.000",
+        "park": "Burnside Park",
+        "park_phone": "(312) 747-6015",
+        "title": "A Wrinkle in Time",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "9400 S. Greenwood Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.59741566,
+                41.72400937
+            ]
+        },
+        ":@computed_region_rpca_8um6": "61",
+        ":@computed_region_vrxf_vc4k": "43",
+        ":@computed_region_6mkv_f3dw": "21546",
+        ":@computed_region_bdys_3d7i": "472",
+        ":@computed_region_43wa_7qmu": "35"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-08-19T00:00:00.000",
+        "park": "Grant Park: Logan Monument",
+        "park_phone": "(312) 742-1134",
+        "title": "Grease",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Greater South Loop Association",
+        "park_address": "900 S. Michigan Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.62428661,
+                41.87055847
+            ]
+        },
+        ":@computed_region_rpca_8um6": "35",
+        ":@computed_region_vrxf_vc4k": "38",
+        ":@computed_region_6mkv_f3dw": "14913",
+        ":@computed_region_bdys_3d7i": "368",
+        ":@computed_region_43wa_7qmu": "10"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-06-19T00:00:00.000",
+        "park": "Green Briar Park",
+        "park_phone": "(773) 761-0582",
+        "title": "Alice in Wonderland",
+        "cc": "Y",
+        "rating": "G",
+        "park_address": "2650 W. Peterson Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.69659414,
+                41.99056874
+            ]
+        },
+        ":@computed_region_rpca_8um6": "50",
+        ":@computed_region_vrxf_vc4k": "20",
+        ":@computed_region_6mkv_f3dw": "4450",
+        ":@computed_region_bdys_3d7i": "31",
+        ":@computed_region_43wa_7qmu": "24"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-06-27T00:00:00.000",
+        "park": "Gross Park",
+        "park_phone": "(312) 742-7528",
+        "title": "Mary Poppins Returns",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "2708 W. Lawrence Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.69662091,
+                41.96865935
+            ]
+        },
+        ":@computed_region_rpca_8um6": "20",
+        ":@computed_region_vrxf_vc4k": "6",
+        ":@computed_region_6mkv_f3dw": "21849",
+        ":@computed_region_bdys_3d7i": "28",
+        ":@computed_region_43wa_7qmu": "24"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-16T00:00:00.000",
+        "park": "Beverly Park",
+        "park_phone": "(312) 747-6024",
+        "title": "Cars (2006)",
+        "cc": "Y",
+        "rating": "G",
+        "park_address": "2460 W. 102nd St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.68413609,
+                41.70829186
+            ]
+        },
+        ":@computed_region_rpca_8um6": "33",
+        ":@computed_region_vrxf_vc4k": "71",
+        ":@computed_region_6mkv_f3dw": "4447",
+        ":@computed_region_bdys_3d7i": "661",
+        ":@computed_region_43wa_7qmu": "42"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-08-06T00:00:00.000",
+        "park": "West Lawn Park",
+        "park_phone": "(773) 284-2803",
+        "title": "Coco",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "4233 W. 65th St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.72884225,
+                41.77486501
+            ]
+        },
+        ":@computed_region_rpca_8um6": "58",
+        ":@computed_region_vrxf_vc4k": "63",
+        ":@computed_region_6mkv_f3dw": "21867",
+        ":@computed_region_bdys_3d7i": "6",
+        ":@computed_region_43wa_7qmu": "15"
+    },
+    {
+        "day": "Sun",
+        "date": "2019-06-30T00:00:00.000",
+        "park": "Chicago Women's Park and Gardens",
+        "park_phone": "(312) 328-0821",
+        "title": "The Incredibles 2",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Prairie District Neighborhood Alliance",
+        "park_address": "1801 S. Indiana Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.62218405,
+                41.85783824
+            ]
+        },
+        ":@computed_region_rpca_8um6": "40",
+        ":@computed_region_vrxf_vc4k": "34",
+        ":@computed_region_6mkv_f3dw": "21194",
+        ":@computed_region_bdys_3d7i": "374",
+        ":@computed_region_43wa_7qmu": "9"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-07-11T00:00:00.000",
+        "park": "Dunbar Park",
+        "park_phone": "(312) 747-6287",
+        "title": "Black Panther",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "300 E. 31st St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.62015738,
+                41.83849698
+            ]
+        },
+        ":@computed_region_rpca_8um6": "40",
+        ":@computed_region_vrxf_vc4k": "1",
+        ":@computed_region_6mkv_f3dw": "21194",
+        ":@computed_region_bdys_3d7i": "191",
+        ":@computed_region_43wa_7qmu": "10"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-21T00:00:00.000",
+        "park": "Mandrake Park",
+        "park_phone": "(312) 747-6446",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "900 E. Pershing Rd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.60390798,
+                41.82509196
+            ]
+        },
+        ":@computed_region_rpca_8um6": "36",
+        ":@computed_region_vrxf_vc4k": "2",
+        ":@computed_region_6mkv_f3dw": "4301",
+        ":@computed_region_bdys_3d7i": "221",
+        ":@computed_region_43wa_7qmu": "10"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-08-10T00:00:00.000",
+        "park": "Humboldt Park",
+        "park_phone": "(312) 742-7549",
+        "title": "Smallfoot",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "1440 N. Sacramento",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                41.902822,
+                -87.701792
+            ]
+        }
+    },
+    {
+        "day": "Thu",
+        "date": "2019-08-15T00:00:00.000",
+        "park": "West Pullman Park",
+        "park_phone": "(312) 747-7090",
+        "title": "Black Panther",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "401 W. 123rd St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.63211402,
+                41.6705255
+            ]
+        },
+        ":@computed_region_rpca_8um6": "19",
+        ":@computed_region_vrxf_vc4k": "50",
+        ":@computed_region_6mkv_f3dw": "21861",
+        ":@computed_region_bdys_3d7i": "7",
+        ":@computed_region_43wa_7qmu": "22"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-07-20T00:00:00.000",
+        "park": "Bradley Park",
+        "park_phone": "(312) 747-6022",
+        "title": "Black Panther",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "9729 S.Yates Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.56450116,
+                41.71809861
+            ]
+        },
+        ":@computed_region_rpca_8um6": "25",
+        ":@computed_region_vrxf_vc4k": "48",
+        ":@computed_region_6mkv_f3dw": "21202",
+        ":@computed_region_bdys_3d7i": "527",
+        ":@computed_region_43wa_7qmu": "47"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-26T00:00:00.000",
+        "park": "Clarendon Park Community Center",
+        "park_phone": "(312) 742-7512",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "4501 N. Clarendon Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.64981992,
+                41.96371269
+            ]
+        },
+        ":@computed_region_rpca_8um6": "15",
+        ":@computed_region_vrxf_vc4k": "31",
+        ":@computed_region_6mkv_f3dw": "22616",
+        ":@computed_region_bdys_3d7i": "636",
+        ":@computed_region_43wa_7qmu": "39"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-12T00:00:00.000",
+        "park": "Moore Park",
+        "park_phone": "(773) 287-0561",
+        "title": "Creed II",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "5085 W. Adams",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.75274341,
+                41.87839125
+            ]
+        },
+        ":@computed_region_rpca_8um6": "32",
+        ":@computed_region_vrxf_vc4k": "26",
+        ":@computed_region_6mkv_f3dw": "22216",
+        ":@computed_region_bdys_3d7i": "184",
+        ":@computed_region_43wa_7qmu": "23"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-08-05T00:00:00.000",
+        "park": "Julia de Burgos Park",
+        "park_phone": "(312) 742-7529",
+        "title": "Trolls",
+        "cc": "Y",
+        "rating": "NR",
+        "underwriter": "The 606",
+        "park_address": "1805 N. Albany Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.70502242,
+                41.91389527
+            ]
+        },
+        ":@computed_region_rpca_8um6": "1",
+        ":@computed_region_vrxf_vc4k": "23",
+        ":@computed_region_6mkv_f3dw": "22535",
+        ":@computed_region_bdys_3d7i": "386",
+        ":@computed_region_43wa_7qmu": "41"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-02T00:00:00.000",
+        "park": "Harold Washington Playlot Park",
+        "park_phone": "(312) 747-6620",
+        "title": "Leap!",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Cultural Service at the Consulate General of France",
+        "park_address": "5200 S. Hyde Park Blvd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.58450476,
+                41.80047033
+            ]
+        },
+        ":@computed_region_rpca_8um6": "10",
+        ":@computed_region_vrxf_vc4k": "8",
+        ":@computed_region_6mkv_f3dw": "21192",
+        ":@computed_region_bdys_3d7i": "405",
+        ":@computed_region_43wa_7qmu": "33"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-30T00:00:00.000",
+        "park": "Humboldt Park",
+        "park_phone": "(312) 742-7549",
+        "title": "The Incredibles 2",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "1440 N. Sacramento",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                41.902822,
+                -87.701792
+            ]
+        }
+    },
+    {
+        "day": "Sun",
+        "date": "2019-07-14T00:00:00.000",
+        "park": "Jonquil Playlot Park",
+        "park_phone": "(312) 742-7816",
+        "title": "Spider-Man: Homecoming",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Wrightwood Neighbors Association",
+        "park_address": "1001 W. Wrightwood Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65385229,
+                41.92889597
+            ]
+        },
+        ":@computed_region_rpca_8um6": "16",
+        ":@computed_region_vrxf_vc4k": "68",
+        ":@computed_region_6mkv_f3dw": "21190",
+        ":@computed_region_bdys_3d7i": "795",
+        ":@computed_region_43wa_7qmu": "34"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-07-31T00:00:00.000",
+        "park": "Chicago History Museum",
+        "park_phone": "(312) 742-1134",
+        "title": "My Favorite Wife",
+        "cc": "Y",
+        "rating": "NR",
+        "underwriter": "The Chicago History Museum",
+        "park_address": "1601 N. Clark St."
+    },
+    {
+        "day": "Wed",
+        "date": "2019-07-24T00:00:00.000",
+        "park": "La Villita Park",
+        "park_phone": "(312) 747-6608",
+        "title": "Smallfoot",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "2800 S. Sacramento Blvd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.70018045,
+                41.8408764
+            ]
+        },
+        ":@computed_region_rpca_8um6": "57",
+        ":@computed_region_vrxf_vc4k": "32",
+        ":@computed_region_6mkv_f3dw": "21569",
+        ":@computed_region_bdys_3d7i": "124",
+        ":@computed_region_43wa_7qmu": "1"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-06-10T00:00:00.000",
+        "park": "Belmont Harbor",
+        "park_phone": "(312) 742-1134",
+        "title": "The 39 Steps",
+        "cc": "Y",
+        "rating": "NR",
+        "park_address": "3200 N. Lake Shore Dr.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.63936916,
+                41.94090916
+            ]
+        },
+        ":@computed_region_rpca_8um6": "22",
+        ":@computed_region_vrxf_vc4k": "57",
+        ":@computed_region_6mkv_f3dw": "4449",
+        ":@computed_region_bdys_3d7i": "535",
+        ":@computed_region_43wa_7qmu": "25"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-09T00:00:00.000",
+        "park": "Ward (A. Montgomery) Park",
+        "park_phone": "(312) 742-7895",
+        "title": "Mary Poppins Returns",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The River North Resident's Association",
+        "park_address": "630 N. Kingsbury St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.64125791,
+                41.893015
+            ]
+        },
+        ":@computed_region_rpca_8um6": "55",
+        ":@computed_region_vrxf_vc4k": "37",
+        ":@computed_region_6mkv_f3dw": "4446",
+        ":@computed_region_bdys_3d7i": "652",
+        ":@computed_region_43wa_7qmu": "36"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-08-24T00:00:00.000",
+        "park": "Oz Park",
+        "park_phone": "(312) 742-7898",
+        "title": "The Wizard of Oz",
+        "cc": "Y",
+        "rating": "G",
+        "park_address": "2021 N. Burling St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.64717807,
+                41.9189011
+            ]
+        },
+        ":@computed_region_rpca_8um6": "16",
+        ":@computed_region_vrxf_vc4k": "68",
+        ":@computed_region_6mkv_f3dw": "21190",
+        ":@computed_region_bdys_3d7i": "798",
+        ":@computed_region_43wa_7qmu": "34"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-06-13T00:00:00.000",
+        "park": "Bartelme (Mary) Park",
+        "park_phone": "(312) 746-5962",
+        "title": "Adventures in Babysitting",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Mary Bartelme Park Advisory Council",
+        "park_address": "115 S. Sangamon St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65066137,
+                41.87994748
+            ]
+        },
+        ":@computed_region_rpca_8um6": "44",
+        ":@computed_region_vrxf_vc4k": "29",
+        ":@computed_region_6mkv_f3dw": "14917",
+        ":@computed_region_bdys_3d7i": "91",
+        ":@computed_region_43wa_7qmu": "26"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-07-01T00:00:00.000",
+        "park": "Oakwood Beach",
+        "park_phone": "(312) 742-1134",
+        "title": "Grease",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "3900 S. Lake Shore Dr.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.60097185,
+                41.82588259
+            ]
+        },
+        ":@computed_region_rpca_8um6": "36",
+        ":@computed_region_vrxf_vc4k": "2",
+        ":@computed_region_6mkv_f3dw": "4301",
+        ":@computed_region_bdys_3d7i": "221",
+        ":@computed_region_43wa_7qmu": "10"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-07-24T00:00:00.000",
+        "park": "White (Willye B.) Park",
+        "park_phone": "(773) 262-5051",
+        "title": "Aquaman",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Forest Preserve District of Cook County",
+        "park_address": "7631 N. Ashland Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67057561,
+                42.02087112
+            ]
+        },
+        ":@computed_region_rpca_8um6": "9",
+        ":@computed_region_vrxf_vc4k": "10",
+        ":@computed_region_6mkv_f3dw": "21853",
+        ":@computed_region_bdys_3d7i": "340",
+        ":@computed_region_43wa_7qmu": "5"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-07-13T00:00:00.000",
+        "park": "Buttercup Playlot Park",
+        "park_phone": "(312) 742-7502",
+        "title": "Napoleon Dynamite",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "4901 N. Sheridan Rd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65473895,
+                41.97166865
+            ]
+        },
+        ":@computed_region_rpca_8um6": "15",
+        ":@computed_region_vrxf_vc4k": "31",
+        ":@computed_region_6mkv_f3dw": "22616",
+        ":@computed_region_bdys_3d7i": "635",
+        ":@computed_region_43wa_7qmu": "16"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-23T00:00:00.000",
+        "park": "Indian Road Park",
+        "park_phone": "(773) 631-3761",
+        "title": "The Incredibles 2",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "6010 W. Matson Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.77835042,
+                41.99284157
+            ]
+        },
+        ":@computed_region_rpca_8um6": "18",
+        ":@computed_region_vrxf_vc4k": "36",
+        ":@computed_region_6mkv_f3dw": "22532",
+        ":@computed_region_bdys_3d7i": "656",
+        ":@computed_region_43wa_7qmu": "38"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-19T00:00:00.000",
+        "park": "Douglas Park Cultural and Community Center",
+        "park_phone": "(773) 762-2842",
+        "title": "Little Shop of Horrors (1986)",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "1401 S. Sacramento Dr.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.70186654,
+                41.862904
+            ]
+        },
+        ":@computed_region_rpca_8um6": "57",
+        ":@computed_region_vrxf_vc4k": "30",
+        ":@computed_region_6mkv_f3dw": "21569",
+        ":@computed_region_bdys_3d7i": "132",
+        ":@computed_region_43wa_7qmu": "14"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-21T00:00:00.000",
+        "park": "Independence Park",
+        "park_phone": "(773) 478-3538",
+        "title": "The Sandlot",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "3945 N. Springfield Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.72494811,
+                41.95322543
+            ]
+        },
+        ":@computed_region_rpca_8um6": "39",
+        ":@computed_region_vrxf_vc4k": "16",
+        ":@computed_region_6mkv_f3dw": "21538",
+        ":@computed_region_bdys_3d7i": "326",
+        ":@computed_region_43wa_7qmu": "50"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-06-25T00:00:00.000",
+        "park": "Bartelme (Mary) Park",
+        "park_phone": "(312) 746-5962",
+        "title": "Wayne's World",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Mary Bartelme Park Advisory Council",
+        "park_address": "115 S. Sangamon St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65066137,
+                41.87994748
+            ]
+        },
+        ":@computed_region_rpca_8um6": "44",
+        ":@computed_region_vrxf_vc4k": "29",
+        ":@computed_region_6mkv_f3dw": "14917",
+        ":@computed_region_bdys_3d7i": "91",
+        ":@computed_region_43wa_7qmu": "26"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-09T00:00:00.000",
+        "park": "Chopin Park",
+        "park_phone": "(773) 685-3247",
+        "title": "Trolls",
+        "cc": "Y",
+        "rating": "NR",
+        "park_address": "3420 N. Long Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.76188146,
+                41.94291712
+            ]
+        },
+        ":@computed_region_rpca_8um6": "21",
+        ":@computed_region_vrxf_vc4k": "15",
+        ":@computed_region_6mkv_f3dw": "22618",
+        ":@computed_region_bdys_3d7i": "361",
+        ":@computed_region_43wa_7qmu": "21"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-07-08T00:00:00.000",
+        "park": "Chippewa Park",
+        "park_phone": "(773) 731-0380",
+        "title": "Bee Movie",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "JCC Chicago",
+        "park_address": "6748 N. Sacramento Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.70475177,
+                42.00438076
+            ]
+        },
+        ":@computed_region_rpca_8um6": "12",
+        ":@computed_region_vrxf_vc4k": "20",
+        ":@computed_region_6mkv_f3dw": "22528",
+        ":@computed_region_bdys_3d7i": "32",
+        ":@computed_region_43wa_7qmu": "27"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-08-20T00:00:00.000",
+        "park": "Bosley Playground Park",
+        "park_phone": "(312) 747-6026",
+        "title": "The Incredibles 2",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "3044 S. Bonfield St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.6537317,
+                41.83922943
+            ]
+        },
+        ":@computed_region_rpca_8um6": "43",
+        ":@computed_region_vrxf_vc4k": "58",
+        ":@computed_region_6mkv_f3dw": "14920",
+        ":@computed_region_bdys_3d7i": "722",
+        ":@computed_region_43wa_7qmu": "48"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-06-19T00:00:00.000",
+        "park": "Museum of Science and Industry",
+        "park_phone": "(312) 742-1134",
+        "title": "Back to the Future Part II",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Museum of Science & Industry",
+        "park_address": "5700 S. Lake Shore Dr.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.58014777,
+                41.79142028
+            ]
+        },
+        ":@computed_region_rpca_8um6": "60",
+        ":@computed_region_vrxf_vc4k": "8",
+        ":@computed_region_6mkv_f3dw": "22260",
+        ":@computed_region_bdys_3d7i": "502",
+        ":@computed_region_43wa_7qmu": "33"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-08-01T00:00:00.000",
+        "park": "Chicago Women's Park and Gardens",
+        "park_phone": "(312) 328-0821",
+        "title": "Jane Eyre (2011)",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Department of Cultural Affairs and Special Events, the Clarke House Museum, The National Society of The Colonial Dames of America, Glessner House and The Prairie District Neighborhood Alliance",
+        "park_address": "1801 S. Indiana Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.62218405,
+                41.85783824
+            ]
+        },
+        ":@computed_region_rpca_8um6": "40",
+        ":@computed_region_vrxf_vc4k": "34",
+        ":@computed_region_6mkv_f3dw": "21194",
+        ":@computed_region_bdys_3d7i": "374",
+        ":@computed_region_43wa_7qmu": "9"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-08-10T00:00:00.000",
+        "park": "Museum of Science and Industry",
+        "park_phone": "(312) 742-1134",
+        "title": "Wonder Woman",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Museum of Science & Industry",
+        "park_address": "5700 S. Lake Shore Dr.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.58014777,
+                41.79142028
+            ]
+        },
+        ":@computed_region_rpca_8um6": "60",
+        ":@computed_region_vrxf_vc4k": "8",
+        ":@computed_region_6mkv_f3dw": "22260",
+        ":@computed_region_bdys_3d7i": "502",
+        ":@computed_region_43wa_7qmu": "33"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-06-22T00:00:00.000",
+        "park": "West Chatham Park",
+        "park_phone": "(317) 747-6998",
+        "title": "Black Panther",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "8223 S. Princeton Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.63156363,
+                41.74443787
+            ]
+        },
+        ":@computed_region_rpca_8um6": "59",
+        ":@computed_region_vrxf_vc4k": "40",
+        ":@computed_region_6mkv_f3dw": "21554",
+        ":@computed_region_bdys_3d7i": "1",
+        ":@computed_region_43wa_7qmu": "13"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-07-15T00:00:00.000",
+        "park": "Osterman Beach",
+        "park_phone": "(312) 742-1134",
+        "title": "Singin' in the Rain",
+        "cc": "Y",
+        "rating": "G",
+        "park_address": "5800 N. Lake Shore Dr.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                41.9863754,
+                -87.6528859
+            ]
+        }
+    },
+    {
+        "day": "Thu",
+        "date": "2019-08-22T00:00:00.000",
+        "park": "Bartelme (Mary) Park",
+        "park_phone": "(312) 746-5962",
+        "title": "Green Book",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Mary Bartelme Park Advisory Council",
+        "park_address": "115 S. Sangamon St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65066137,
+                41.87994748
+            ]
+        },
+        ":@computed_region_rpca_8um6": "44",
+        ":@computed_region_vrxf_vc4k": "29",
+        ":@computed_region_6mkv_f3dw": "14917",
+        ":@computed_region_bdys_3d7i": "91",
+        ":@computed_region_43wa_7qmu": "26"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-05T00:00:00.000",
+        "park": "Indian Boundary Park and Cultural Center",
+        "park_phone": "(773) 764-0338",
+        "title": "Yankee Doodle Dandy",
+        "cc": "N",
+        "rating": "NR",
+        "park_address": "2500 W. Lunt Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.69268958,
+                42.0087144
+            ]
+        },
+        ":@computed_region_rpca_8um6": "12",
+        ":@computed_region_vrxf_vc4k": "20",
+        ":@computed_region_6mkv_f3dw": "22528",
+        ":@computed_region_bdys_3d7i": "42",
+        ":@computed_region_43wa_7qmu": "27"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-07-17T00:00:00.000",
+        "park": "Harrison Park",
+        "park_phone": "(312) 746-5491",
+        "title": "Not Quite Adults / Tampoco Tan Grandes",
+        "cc": "Y",
+        "rating": "NR",
+        "underwriter": "The International Latino Cultural Center",
+        "park_address": "1824 S. Wood St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67122476,
+                41.85692162
+            ]
+        },
+        ":@computed_region_rpca_8um6": "43",
+        ":@computed_region_vrxf_vc4k": "33",
+        ":@computed_region_6mkv_f3dw": "14920",
+        ":@computed_region_bdys_3d7i": "366",
+        ":@computed_region_43wa_7qmu": "26"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-08-08T00:00:00.000",
+        "park": "Bartelme (Mary) Park",
+        "park_phone": "(312) 746-5962",
+        "title": "Creed (2015)",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Mary Bartelme Park Advisory Council",
+        "park_address": "115 S. Sangamon St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65066137,
+                41.87994748
+            ]
+        },
+        ":@computed_region_rpca_8um6": "44",
+        ":@computed_region_vrxf_vc4k": "29",
+        ":@computed_region_6mkv_f3dw": "14917",
+        ":@computed_region_bdys_3d7i": "91",
+        ":@computed_region_43wa_7qmu": "26"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-14T00:00:00.000",
+        "park": "Lindblom Park",
+        "park_phone": "(312) 747-6443",
+        "title": "Creed II",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "6054 S. Damen Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67415389,
+                41.78318436
+            ]
+        },
+        ":@computed_region_rpca_8um6": "23",
+        ":@computed_region_vrxf_vc4k": "65",
+        ":@computed_region_6mkv_f3dw": "22257",
+        ":@computed_region_bdys_3d7i": "274",
+        ":@computed_region_43wa_7qmu": "2"
+    },
+    {
+        "day": "Sun",
+        "date": "2019-08-18T00:00:00.000",
+        "park": "Wallace Playground Park",
+        "park_phone": "(312) 747-6763",
+        "title": "Creed II",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "607 W. 92nd St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.63883826,
+                41.72689281
+            ]
+        },
+        ":@computed_region_rpca_8um6": "59",
+        ":@computed_region_vrxf_vc4k": "72",
+        ":@computed_region_6mkv_f3dw": "21554",
+        ":@computed_region_bdys_3d7i": "631",
+        ":@computed_region_43wa_7qmu": "13"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-28T00:00:00.000",
+        "park": "Wentworth Park",
+        "park_phone": "(312) 747-6993",
+        "title": "Ralph Breaks the Internet",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "5625 S. Mobile Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.7791043,
+                41.78970398
+            ]
+        },
+        ":@computed_region_rpca_8um6": "7",
+        ":@computed_region_vrxf_vc4k": "53",
+        ":@computed_region_6mkv_f3dw": "22268",
+        ":@computed_region_bdys_3d7i": "590",
+        ":@computed_region_43wa_7qmu": "15"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-08-12T00:00:00.000",
+        "park": "Belmont Harbor",
+        "park_phone": "(312) 742-1134",
+        "title": "Meet Me In St. Louis",
+        "cc": "Y",
+        "rating": "NR",
+        "park_address": "3200 N. Lake Shore Dr.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.63936916,
+                41.94090916
+            ]
+        },
+        ":@computed_region_rpca_8um6": "22",
+        ":@computed_region_vrxf_vc4k": "57",
+        ":@computed_region_6mkv_f3dw": "4449",
+        ":@computed_region_bdys_3d7i": "535",
+        ":@computed_region_43wa_7qmu": "25"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-02T00:00:00.000",
+        "park": "Cornell Square Park",
+        "park_phone": "(312) 747-6097",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "1809 W. 50th St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67011453,
+                41.8029812
+            ]
+        },
+        ":@computed_region_rpca_8um6": "37",
+        ":@computed_region_vrxf_vc4k": "59",
+        ":@computed_region_6mkv_f3dw": "14924",
+        ":@computed_region_bdys_3d7i": "709",
+        ":@computed_region_43wa_7qmu": "4"
+    },
+    {
+        "day": "Sun",
+        "date": "2019-07-21T00:00:00.000",
+        "park": "Jonquil Playlot Park",
+        "park_phone": "(312) 742-7816",
+        "title": "The Grinch",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Wrightwood Neighbors Association",
+        "park_address": "1001 W. Wrightwood Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65385229,
+                41.92889597
+            ]
+        },
+        ":@computed_region_rpca_8um6": "16",
+        ":@computed_region_vrxf_vc4k": "68",
+        ":@computed_region_6mkv_f3dw": "21190",
+        ":@computed_region_bdys_3d7i": "795",
+        ":@computed_region_43wa_7qmu": "34"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-26T00:00:00.000",
+        "park": "Rutherford Sayre Park",
+        "park_phone": "(312) 746-5368",
+        "title": "Mary Poppins Returns",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "6871 W. Belden Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.79791006,
+                41.92103326
+            ]
+        },
+        ":@computed_region_rpca_8um6": "3",
+        ":@computed_region_vrxf_vc4k": "18",
+        ":@computed_region_6mkv_f3dw": "4454",
+        ":@computed_region_bdys_3d7i": "136",
+        ":@computed_region_43wa_7qmu": "7"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-07-10T00:00:00.000",
+        "park": "Loyola Park",
+        "park_phone": "(773) 262-8605",
+        "title": "The Gazelle's Dance / El Baile de la Gacela",
+        "cc": "Y",
+        "rating": "NR",
+        "underwriter": "The International Latino Cultural Center",
+        "park_address": "1230 W. Greenleaf Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.66130892,
+                42.01052218
+            ]
+        },
+        ":@computed_region_rpca_8um6": "9",
+        ":@computed_region_vrxf_vc4k": "10",
+        ":@computed_region_6mkv_f3dw": "21853",
+        ":@computed_region_bdys_3d7i": "267",
+        ":@computed_region_43wa_7qmu": "5"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-08-20T00:00:00.000",
+        "park": "Jensen Park",
+        "park_phone": "(312) 742-7054",
+        "title": "Sherlock Gnomes",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "4650 N. Lawndale Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.72077765,
+                41.9661342
+            ]
+        },
+        ":@computed_region_rpca_8um6": "20",
+        ":@computed_region_vrxf_vc4k": "14",
+        ":@computed_region_6mkv_f3dw": "21849",
+        ":@computed_region_bdys_3d7i": "119",
+        ":@computed_region_43wa_7qmu": "12"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-07-17T00:00:00.000",
+        "park": "Brainerd Park",
+        "park_phone": "(312) 747-6027",
+        "title": "Creed II",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "1246 W. 92nd St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65494879,
+                41.72690254
+            ]
+        },
+        ":@computed_region_rpca_8um6": "59",
+        ":@computed_region_vrxf_vc4k": "72",
+        ":@computed_region_6mkv_f3dw": "21554",
+        ":@computed_region_bdys_3d7i": "195",
+        ":@computed_region_43wa_7qmu": "13"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-08-14T00:00:00.000",
+        "park": "Hamlin Park",
+        "park_phone": "(312) 742-7785",
+        "title": "Smallfoot",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "3035 N. Hoyne Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.68055828,
+                41.93695733
+            ]
+        },
+        ":@computed_region_rpca_8um6": "39",
+        ":@computed_region_vrxf_vc4k": "46",
+        ":@computed_region_6mkv_f3dw": "21538",
+        ":@computed_region_bdys_3d7i": "616",
+        ":@computed_region_43wa_7qmu": "40"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-06-15T00:00:00.000",
+        "park": "Oz Park",
+        "park_phone": "(312) 742-7898",
+        "title": "The Sandlot 2",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Oz Park Baseball Association",
+        "park_address": "2021 N. Burling St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.64717807,
+                41.9189011
+            ]
+        },
+        ":@computed_region_rpca_8um6": "16",
+        ":@computed_region_vrxf_vc4k": "68",
+        ":@computed_region_6mkv_f3dw": "21190",
+        ":@computed_region_bdys_3d7i": "798",
+        ":@computed_region_43wa_7qmu": "34"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-07-29T00:00:00.000",
+        "park": "Oakwood Beach",
+        "park_phone": "(312) 742-1134",
+        "title": "Muppets Take Manhattan",
+        "cc": "Y",
+        "rating": "G",
+        "park_address": "3900 S. Lake Shore Dr.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.60097185,
+                41.82588259
+            ]
+        },
+        ":@computed_region_rpca_8um6": "36",
+        ":@computed_region_vrxf_vc4k": "2",
+        ":@computed_region_6mkv_f3dw": "4301",
+        ":@computed_region_bdys_3d7i": "221",
+        ":@computed_region_43wa_7qmu": "10"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-06-26T00:00:00.000",
+        "park": "Blackhawk Park",
+        "park_phone": "(312) 746-5014",
+        "title": "The Incredibles 2",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "2318 N. Lavergne Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.7513379,
+                41.92293421
+            ]
+        },
+        ":@computed_region_rpca_8um6": "2",
+        ":@computed_region_vrxf_vc4k": "19",
+        ":@computed_region_6mkv_f3dw": "22615",
+        ":@computed_region_bdys_3d7i": "306",
+        ":@computed_region_43wa_7qmu": "44"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-07-31T00:00:00.000",
+        "park": "Piotrowski Park",
+        "park_phone": "(312) 745-4801",
+        "title": "Tesoros",
+        "cc": "Y",
+        "rating": "G",
+        "underwriter": "The International Latino Cultural Center",
+        "park_address": "4247 W. 31st St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73107269,
+                41.83669678
+            ]
+        },
+        ":@computed_region_rpca_8um6": "57",
+        ":@computed_region_vrxf_vc4k": "32",
+        ":@computed_region_6mkv_f3dw": "21569",
+        ":@computed_region_bdys_3d7i": "200",
+        ":@computed_region_43wa_7qmu": "28"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-09T00:00:00.000",
+        "park": "Trebes Park",
+        "park_phone": "(312) 742-7769",
+        "title": "La Bolduc",
+        "cc": "Y",
+        "rating": "NR",
+        "underwriter": "The Cultural Service at the Consulate General of France",
+        "park_address": "2250 N. Clifton Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65732331,
+                41.92317657
+            ]
+        },
+        ":@computed_region_rpca_8um6": "16",
+        ":@computed_region_vrxf_vc4k": "68",
+        ":@computed_region_6mkv_f3dw": "21190",
+        ":@computed_region_bdys_3d7i": "797",
+        ":@computed_region_43wa_7qmu": "34"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-07-27T00:00:00.000",
+        "park": "Park No. 564 - Big Marsh",
+        "park_phone": "(773) 646-0210",
+        "title": "Captain Marvel",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "11555 S. Stony Island Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.57630433,
+                41.68482787
+            ]
+        },
+        ":@computed_region_rpca_8um6": "25",
+        ":@computed_region_vrxf_vc4k": "48",
+        ":@computed_region_6mkv_f3dw": "22250",
+        ":@computed_region_bdys_3d7i": "174",
+        ":@computed_region_43wa_7qmu": "47"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-19T00:00:00.000",
+        "park": "Piotrowski Park",
+        "park_phone": "(312) 745-4801",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "4247 W. 31st St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73107269,
+                41.83669678
+            ]
+        },
+        ":@computed_region_rpca_8um6": "57",
+        ":@computed_region_vrxf_vc4k": "32",
+        ":@computed_region_6mkv_f3dw": "21569",
+        ":@computed_region_bdys_3d7i": "200",
+        ":@computed_region_43wa_7qmu": "28"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-06-11T00:00:00.000",
+        "park": "Donovan Playground Park",
+        "park_phone": "(312) 747-6111",
+        "title": "Goosebumps 2",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "3620 S.Lituanica Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.64781283,
+                41.82797656
+            ]
+        },
+        ":@computed_region_rpca_8um6": "37",
+        ":@computed_region_vrxf_vc4k": "58",
+        ":@computed_region_6mkv_f3dw": "14924",
+        ":@computed_region_bdys_3d7i": "172",
+        ":@computed_region_43wa_7qmu": "48"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-08-24T00:00:00.000",
+        "park": "Euclid Park",
+        "park_phone": "(312) 747-6124",
+        "title": "Aquaman",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "9800 S. Parnell Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.63714774,
+                41.71604187
+            ]
+        },
+        ":@computed_region_rpca_8um6": "19",
+        ":@computed_region_vrxf_vc4k": "72",
+        ":@computed_region_6mkv_f3dw": "21861",
+        ":@computed_region_bdys_3d7i": "593",
+        ":@computed_region_43wa_7qmu": "22"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-08-10T00:00:00.000",
+        "park": "Pendleton (Hadiya) Park",
+        "park_phone": "(312) 747-6707",
+        "title": "Aquaman",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "4345 S. Calumet Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.61816658,
+                41.81524092
+            ]
+        },
+        ":@computed_region_rpca_8um6": "36",
+        ":@computed_region_vrxf_vc4k": "4",
+        ":@computed_region_6mkv_f3dw": "4301",
+        ":@computed_region_bdys_3d7i": "162",
+        ":@computed_region_43wa_7qmu": "9"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-06-22T00:00:00.000",
+        "park": "Sauganash Park",
+        "park_phone": "(773) 685-6122",
+        "title": "Ralph Breaks the Internet",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Edgebrook Sauganash Athletic Association",
+        "park_address": "5861 N. Kostner Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73816907,
+                41.98806928
+            ]
+        },
+        ":@computed_region_rpca_8um6": "18",
+        ":@computed_region_vrxf_vc4k": "12",
+        ":@computed_region_6mkv_f3dw": "22532",
+        ":@computed_region_bdys_3d7i": "713",
+        ":@computed_region_43wa_7qmu": "38"
+    },
+    {
+        "day": "Sun",
+        "date": "2019-06-23T00:00:00.000",
+        "park": "Brooks Park",
+        "park_phone": "(773) 631-4401",
+        "title": "Mary Poppins Returns",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Edison Park Chamber of Commerce",
+        "park_address": "7100 N. Harlem Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.80680465,
+                42.00994549
+            ]
+        },
+        ":@computed_region_rpca_8um6": "17",
+        ":@computed_region_vrxf_vc4k": "77",
+        ":@computed_region_6mkv_f3dw": "22243",
+        ":@computed_region_bdys_3d7i": "654",
+        ":@computed_region_43wa_7qmu": "29"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-08-05T00:00:00.000",
+        "park": "South Shore Cultural Center",
+        "park_phone": "(773) 256-0149",
+        "title": "A Wrinkle in Time",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "7059 S. South Shore Drive",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.56632372,
+                41.76660302
+            ]
+        },
+        ":@computed_region_rpca_8um6": "24",
+        ":@computed_region_vrxf_vc4k": "39",
+        ":@computed_region_6mkv_f3dw": "22538",
+        ":@computed_region_bdys_3d7i": "142",
+        ":@computed_region_43wa_7qmu": "33"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-09T00:00:00.000",
+        "park": "Palmer Park",
+        "park_phone": "(312) 747-6577",
+        "title": "Jumanji: Welcome to the Jungle",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "201 E. 111th St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.61813446,
+                41.69254319
+            ]
+        },
+        ":@computed_region_rpca_8um6": "19",
+        ":@computed_region_vrxf_vc4k": "45",
+        ":@computed_region_6mkv_f3dw": "21861",
+        ":@computed_region_bdys_3d7i": "253",
+        ":@computed_region_43wa_7qmu": "43"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-05T00:00:00.000",
+        "park": "Augusta Park",
+        "park_phone": "(312) 742-7544",
+        "title": "Aquaman",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "4433 W. Augusta Blvd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73738695,
+                41.8987269
+            ]
+        },
+        ":@computed_region_rpca_8um6": "5",
+        ":@computed_region_vrxf_vc4k": "24",
+        ":@computed_region_6mkv_f3dw": "4299",
+        ":@computed_region_bdys_3d7i": "99",
+        ":@computed_region_43wa_7qmu": "45"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-16T00:00:00.000",
+        "park": "Ada Park",
+        "park_phone": "(312) 747-6002",
+        "title": "Rampage",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "11250 S. Ada St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65578778,
+                41.68856983
+            ]
+        },
+        ":@computed_region_rpca_8um6": "13",
+        ":@computed_region_vrxf_vc4k": "74",
+        ":@computed_region_6mkv_f3dw": "22212",
+        ":@computed_region_bdys_3d7i": "663",
+        ":@computed_region_43wa_7qmu": "22"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-06-18T00:00:00.000",
+        "park": "Kedvale Park",
+        "park_phone": "(312) 742-7543",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "4134 W. Hirsch St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73022479,
+                41.90634312
+            ]
+        },
+        ":@computed_region_rpca_8um6": "5",
+        ":@computed_region_vrxf_vc4k": "24",
+        ":@computed_region_6mkv_f3dw": "4299",
+        ":@computed_region_bdys_3d7i": "286",
+        ":@computed_region_43wa_7qmu": "49"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-08-06T00:00:00.000",
+        "park": "Lawler Park",
+        "park_phone": "(773) 284-7328",
+        "title": "Coco",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "5210 W. 64th St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.75229515,
+                41.77611338
+            ]
+        },
+        ":@computed_region_rpca_8um6": "7",
+        ":@computed_region_vrxf_vc4k": "62",
+        ":@computed_region_6mkv_f3dw": "22268",
+        ":@computed_region_bdys_3d7i": "337",
+        ":@computed_region_43wa_7qmu": "15"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-08-14T00:00:00.000",
+        "park": "Sheridan Park",
+        "park_phone": "(312) 746-5369",
+        "title": "Moana",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "910 S. Aberdeen St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65439381,
+                41.87032717
+            ]
+        },
+        ":@computed_region_rpca_8um6": "44",
+        ":@computed_region_vrxf_vc4k": "29",
+        ":@computed_region_6mkv_f3dw": "14917",
+        ":@computed_region_bdys_3d7i": "87",
+        ":@computed_region_43wa_7qmu": "26"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-08-19T00:00:00.000",
+        "park": "South Shore Cultural Center",
+        "park_phone": "(773) 256-0149",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "South Shore Cultural Center",
+        "park_address": "7059 S. South Shore Drive",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.56632372,
+                41.76660302
+            ]
+        },
+        ":@computed_region_rpca_8um6": "24",
+        ":@computed_region_vrxf_vc4k": "39",
+        ":@computed_region_6mkv_f3dw": "22538",
+        ":@computed_region_bdys_3d7i": "142",
+        ":@computed_region_43wa_7qmu": "33"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-06-20T00:00:00.000",
+        "park": "Archer Park",
+        "park_phone": "(773) 284-7029",
+        "title": "Smallfoot",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "4901 S.Kilbourn Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73556627,
+                41.80391551
+            ]
+        },
+        ":@computed_region_rpca_8um6": "56",
+        ":@computed_region_vrxf_vc4k": "54",
+        ":@computed_region_6mkv_f3dw": "22248",
+        ":@computed_region_bdys_3d7i": "697",
+        ":@computed_region_43wa_7qmu": "8"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-06-26T00:00:00.000",
+        "park": "Lincoln Park Cultural Center",
+        "park_phone": "(312) 742-7726",
+        "title": "Galaxy Quest",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "2045 N. Lincoln Park West",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.63624578,
+                41.91983669
+            ]
+        },
+        ":@computed_region_rpca_8um6": "16",
+        ":@computed_region_vrxf_vc4k": "68",
+        ":@computed_region_6mkv_f3dw": "21190",
+        ":@computed_region_bdys_3d7i": "207",
+        ":@computed_region_43wa_7qmu": "34"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-07-01T00:00:00.000",
+        "park": "Calumet Park",
+        "park_phone": "(312) 747-6039",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "9801 S. Ave G",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.53150812,
+                41.71772004
+            ]
+        },
+        ":@computed_region_rpca_8um6": "25",
+        ":@computed_region_vrxf_vc4k": "49",
+        ":@computed_region_6mkv_f3dw": "21202",
+        ":@computed_region_bdys_3d7i": "705",
+        ":@computed_region_43wa_7qmu": "47"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-07-25T00:00:00.000",
+        "park": "Columbus Park",
+        "park_phone": "(773) 287-7641",
+        "title": "Aquaman",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "500 S. Central Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.7647697,
+                41.87377325
+            ]
+        },
+        ":@computed_region_rpca_8um6": "32",
+        ":@computed_region_vrxf_vc4k": "26",
+        ":@computed_region_6mkv_f3dw": "22216",
+        ":@computed_region_bdys_3d7i": "67",
+        ":@computed_region_43wa_7qmu": "7"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-08-24T00:00:00.000",
+        "park": "Chicago Women's Park and Gardens",
+        "park_phone": "(312) 328-0821",
+        "title": "First Man",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Prairie District Neighborhood Alliance",
+        "park_address": "1801 S. Indiana Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.62218405,
+                41.85783824
+            ]
+        },
+        ":@computed_region_rpca_8um6": "40",
+        ":@computed_region_vrxf_vc4k": "34",
+        ":@computed_region_6mkv_f3dw": "21194",
+        ":@computed_region_bdys_3d7i": "374",
+        ":@computed_region_43wa_7qmu": "9"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-21T00:00:00.000",
+        "park": "Gladstone Park",
+        "park_phone": "(773) 631-7859",
+        "title": "Ralph Breaks the Internet",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "5421 N. Menard Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.77310817,
+                41.97910458
+            ]
+        },
+        ":@computed_region_rpca_8um6": "48",
+        ":@computed_region_vrxf_vc4k": "11",
+        ":@computed_region_6mkv_f3dw": "21869",
+        ":@computed_region_bdys_3d7i": "693",
+        ":@computed_region_43wa_7qmu": "50"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-07-08T00:00:00.000",
+        "park": "Daniel Webster Park",
+        "park_phone": "(312) 745-1479",
+        "title": "Peter Rabbit",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Greater South Loop Association",
+        "park_address": "1357 S. Indiana Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.62233575,
+                41.86427432
+            ]
+        },
+        ":@computed_region_rpca_8um6": "35",
+        ":@computed_region_vrxf_vc4k": "34",
+        ":@computed_region_6mkv_f3dw": "14913",
+        ":@computed_region_bdys_3d7i": "374",
+        ":@computed_region_43wa_7qmu": "9"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-06-15T00:00:00.000",
+        "park": "DuSable Museum of African American History",
+        "park_phone": "(312) 742-1134",
+        "title": "Freedom Song",
+        "cc": "Y",
+        "rating": "NR",
+        "park_address": "740 E. 56th Pl.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.60685252,
+                41.79248002
+            ]
+        },
+        ":@computed_region_rpca_8um6": "60",
+        ":@computed_region_vrxf_vc4k": "7",
+        ":@computed_region_6mkv_f3dw": "22260",
+        ":@computed_region_bdys_3d7i": "401",
+        ":@computed_region_43wa_7qmu": "4"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-06-29T00:00:00.000",
+        "park": "Belmont Harbor",
+        "park_phone": "(312) 742-1134",
+        "title": "Breathless / A Bout De Souffle",
+        "cc": "Y",
+        "rating": "NR",
+        "underwriter": "The Cultural Service at the Consulate General of France",
+        "park_address": "3200 N. Lake Shore Dr.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.63936916,
+                41.94090916
+            ]
+        },
+        ":@computed_region_rpca_8um6": "22",
+        ":@computed_region_vrxf_vc4k": "57",
+        ":@computed_region_6mkv_f3dw": "4449",
+        ":@computed_region_bdys_3d7i": "535",
+        ":@computed_region_43wa_7qmu": "25"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-08-03T00:00:00.000",
+        "park": "Rowan Park",
+        "park_phone": "(773) 646-3180",
+        "title": "Monsters University",
+        "cc": "Y",
+        "rating": "G",
+        "park_address": "11546 S. Avenue L",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.53661565,
+                41.68500208
+            ]
+        },
+        ":@computed_region_rpca_8um6": "25",
+        ":@computed_region_vrxf_vc4k": "49",
+        ":@computed_region_6mkv_f3dw": "21202",
+        ":@computed_region_bdys_3d7i": "603",
+        ":@computed_region_43wa_7qmu": "47"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-28T00:00:00.000",
+        "park": "Carver Park",
+        "park_phone": "(312) 747-6047",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Forest Preserve District of Cook County",
+        "park_address": "939 E. 132nd St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.59906439,
+                41.65592462
+            ]
+        },
+        ":@computed_region_rpca_8um6": "47",
+        ":@computed_region_vrxf_vc4k": "51",
+        ":@computed_region_6mkv_f3dw": "4460",
+        ":@computed_region_bdys_3d7i": "10",
+        ":@computed_region_43wa_7qmu": "43"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-16T00:00:00.000",
+        "park": "Hermosa Park",
+        "park_phone": "(312) 742-7540",
+        "title": "Aquaman",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "2240 N. Kilbourn Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73907239,
+                41.92192999
+            ]
+        },
+        ":@computed_region_rpca_8um6": "2",
+        ":@computed_region_vrxf_vc4k": "21",
+        ":@computed_region_6mkv_f3dw": "22615",
+        ":@computed_region_bdys_3d7i": "75",
+        ":@computed_region_43wa_7qmu": "44"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-07-13T00:00:00.000",
+        "park": "Chicago Women's Park and Gardens",
+        "park_phone": "(312) 328-0821",
+        "title": "Dunkirk",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Prairie District Neighborhood Alliance",
+        "park_address": "1801 S. Indiana Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.62218405,
+                41.85783824
+            ]
+        },
+        ":@computed_region_rpca_8um6": "40",
+        ":@computed_region_vrxf_vc4k": "34",
+        ":@computed_region_6mkv_f3dw": "21194",
+        ":@computed_region_bdys_3d7i": "374",
+        ":@computed_region_43wa_7qmu": "9"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-09T00:00:00.000",
+        "park": "Bessemer Park",
+        "park_phone": "(312) 747-6023",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "8930 S. Muskegon Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.55561477,
+                41.7327341
+            ]
+        },
+        ":@computed_region_rpca_8um6": "25",
+        ":@computed_region_vrxf_vc4k": "42",
+        ":@computed_region_6mkv_f3dw": "21202",
+        ":@computed_region_bdys_3d7i": "175",
+        ":@computed_region_43wa_7qmu": "37"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-08-17T00:00:00.000",
+        "park": "Winnemac Park",
+        "park_phone": "(312) 742-5101",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "Friends of Winnemac Park",
+        "park_address": "5100 N. Leavitt St",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.68437099,
+                41.97406708
+            ]
+        },
+        ":@computed_region_rpca_8um6": "20",
+        ":@computed_region_vrxf_vc4k": "6",
+        ":@computed_region_6mkv_f3dw": "21849",
+        ":@computed_region_bdys_3d7i": "54",
+        ":@computed_region_43wa_7qmu": "24"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-08-13T00:00:00.000",
+        "park": "Welles Park",
+        "park_phone": "(312) 742-7511",
+        "title": "Footloose (1984)",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "2333 W. Sunnyside Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.68773712,
+                41.96304075
+            ]
+        },
+        ":@computed_region_rpca_8um6": "20",
+        ":@computed_region_vrxf_vc4k": "6",
+        ":@computed_region_6mkv_f3dw": "21849",
+        ":@computed_region_bdys_3d7i": "667",
+        ":@computed_region_43wa_7qmu": "18"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-23T00:00:00.000",
+        "park": "Kosciuszko Park",
+        "park_phone": "(312) 742-7546",
+        "title": "Black Panther",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Kosciuszko Park Advisory Council",
+        "park_address": "2732 N. Avers Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.72343588,
+                41.9310234
+            ]
+        },
+        ":@computed_region_rpca_8um6": "1",
+        ":@computed_region_vrxf_vc4k": "23",
+        ":@computed_region_6mkv_f3dw": "22535",
+        ":@computed_region_bdys_3d7i": "107",
+        ":@computed_region_43wa_7qmu": "17"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-12T00:00:00.000",
+        "park": "Adams Playground Park",
+        "park_phone": "(312) 742-7787",
+        "title": "Mary Poppins Returns",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "1919 N. Seminary Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65522827,
+                41.91669986
+            ]
+        },
+        ":@computed_region_rpca_8um6": "16",
+        ":@computed_region_vrxf_vc4k": "68",
+        ":@computed_region_6mkv_f3dw": "21190",
+        ":@computed_region_bdys_3d7i": "168",
+        ":@computed_region_43wa_7qmu": "34"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-07-10T00:00:00.000",
+        "park": "La Follette Park",
+        "park_phone": "(773) 287-0541",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "1333 N. Laramie Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.75569246,
+                41.90505469
+            ]
+        },
+        ":@computed_region_rpca_8um6": "5",
+        ":@computed_region_vrxf_vc4k": "26",
+        ":@computed_region_6mkv_f3dw": "4299",
+        ":@computed_region_bdys_3d7i": "600",
+        ":@computed_region_43wa_7qmu": "45"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-06-13T00:00:00.000",
+        "park": "Wicker Park",
+        "park_phone": "(312) 742-7553",
+        "title": "Stardust",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Wicker Park Bucktown Chamber of Commerce Members and the Wicker Park Advisory Council",
+        "park_address": "1425 N. Damen Avenue",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67724924,
+                41.90795225
+            ]
+        },
+        ":@computed_region_rpca_8um6": "4",
+        ":@computed_region_vrxf_vc4k": "25",
+        ":@computed_region_6mkv_f3dw": "21560",
+        ":@computed_region_bdys_3d7i": "481",
+        ":@computed_region_43wa_7qmu": "41"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-06-25T00:00:00.000",
+        "park": "Hamilton Park",
+        "park_phone": "(312) 747-6174",
+        "title": "Jurassic World: Fallen Kingdom",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "513 W. 72nd St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.6376201,
+                41.76337465
+            ]
+        },
+        ":@computed_region_rpca_8um6": "11",
+        ":@computed_region_vrxf_vc4k": "66",
+        ":@computed_region_6mkv_f3dw": "21559",
+        ":@computed_region_bdys_3d7i": "511",
+        ":@computed_region_43wa_7qmu": "32"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-07-17T00:00:00.000",
+        "park": "Kilbourn Park",
+        "park_phone": "(773) 685-3351",
+        "title": "Goonies",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "3501 N. Kilbourn Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73951111,
+                41.94450485
+            ]
+        },
+        ":@computed_region_rpca_8um6": "21",
+        ":@computed_region_vrxf_vc4k": "16",
+        ":@computed_region_6mkv_f3dw": "22618",
+        ":@computed_region_bdys_3d7i": "328",
+        ":@computed_region_43wa_7qmu": "21"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-09-07T00:00:00.000",
+        "park": "Buttercup Playlot Park",
+        "park_phone": "(312) 742-7502",
+        "title": "After School Cartoons",
+        "cc": "N",
+        "rating": "NR",
+        "park_address": "4901 N. Sheridan Rd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65473895,
+                41.97166865
+            ]
+        },
+        ":@computed_region_rpca_8um6": "15",
+        ":@computed_region_vrxf_vc4k": "31",
+        ":@computed_region_6mkv_f3dw": "22616",
+        ":@computed_region_bdys_3d7i": "635",
+        ":@computed_region_43wa_7qmu": "16"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-19T00:00:00.000",
+        "park": "Independence Park",
+        "park_phone": "(773) 478-3538",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "3945 N. Springfield Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.72494811,
+                41.95322543
+            ]
+        },
+        ":@computed_region_rpca_8um6": "39",
+        ":@computed_region_vrxf_vc4k": "16",
+        ":@computed_region_6mkv_f3dw": "21538",
+        ":@computed_region_bdys_3d7i": "326",
+        ":@computed_region_43wa_7qmu": "50"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-02T00:00:00.000",
+        "park": "Clark (Richard) Playlot Park",
+        "park_phone": "(773) 248-3966",
+        "title": "Crazy Rich Asians",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "3400 N. Rockwell St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.69384443,
+                41.94305204
+            ]
+        },
+        ":@computed_region_rpca_8um6": "39",
+        ":@computed_region_vrxf_vc4k": "46",
+        ":@computed_region_6mkv_f3dw": "21538",
+        ":@computed_region_bdys_3d7i": "110",
+        ":@computed_region_43wa_7qmu": "18"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-07-15T00:00:00.000",
+        "park": "Harold Washington Playlot Park",
+        "park_phone": "(312) 747-6620",
+        "title": "Isle of Dogs",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "5200 S. Hyde Park Blvd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.58450476,
+                41.80047033
+            ]
+        },
+        ":@computed_region_rpca_8um6": "10",
+        ":@computed_region_vrxf_vc4k": "8",
+        ":@computed_region_6mkv_f3dw": "21192",
+        ":@computed_region_bdys_3d7i": "405",
+        ":@computed_region_43wa_7qmu": "33"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-05T00:00:00.000",
+        "park": "Kelly Park",
+        "park_phone": "(312) 747-6197",
+        "title": "Ralph Breaks the Internet",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "2725 W. 41st St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.69340844,
+                41.81918844
+            ]
+        },
+        ":@computed_region_rpca_8um6": "56",
+        ":@computed_region_vrxf_vc4k": "55",
+        ":@computed_region_6mkv_f3dw": "22248",
+        ":@computed_region_bdys_3d7i": "641",
+        ":@computed_region_43wa_7qmu": "1"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-08-07T00:00:00.000",
+        "park": "Senn Playlot Park",
+        "park_phone": "(312) 742-7502",
+        "title": "Ralph Breaks the Internet",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "5887 N. Ridge Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.66850696,
+                41.98893587
+            ]
+        },
+        ":@computed_region_rpca_8um6": "14",
+        ":@computed_region_vrxf_vc4k": "76",
+        ":@computed_region_6mkv_f3dw": "4451",
+        ":@computed_region_bdys_3d7i": "539",
+        ":@computed_region_43wa_7qmu": "16"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-08-22T00:00:00.000",
+        "park": "Churchill Field Playlot Park",
+        "park_phone": "(312) 742-7554",
+        "title": "Ralph Breaks the Internet",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Bucktown Community Organization",
+        "park_address": "1825 N. Damen Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67740738,
+                41.9146579
+            ]
+        },
+        ":@computed_region_rpca_8um6": "4",
+        ":@computed_region_vrxf_vc4k": "23",
+        ":@computed_region_6mkv_f3dw": "21560",
+        ":@computed_region_bdys_3d7i": "179",
+        ":@computed_region_43wa_7qmu": "40"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-07-20T00:00:00.000",
+        "park": "Horner Park",
+        "park_phone": "(773) 478-3499",
+        "title": "E. T. the Extra-Terrestrial",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Hornrer Park Advisory Council",
+        "park_address": "2741 W. Montrose Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.69770153,
+                41.9611441
+            ]
+        },
+        ":@computed_region_rpca_8um6": "39",
+        ":@computed_region_vrxf_vc4k": "16",
+        ":@computed_region_6mkv_f3dw": "21538",
+        ":@computed_region_bdys_3d7i": "214",
+        ":@computed_region_43wa_7qmu": "20"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-30T00:00:00.000",
+        "park": "Fuller Park",
+        "park_phone": "(312) 747-6144",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Forest Preserve District of Cook County",
+        "park_address": "331 W. 45th St",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.63479837,
+                41.81238512
+            ]
+        },
+        ":@computed_region_rpca_8um6": "37",
+        ":@computed_region_vrxf_vc4k": "3",
+        ":@computed_region_6mkv_f3dw": "14924",
+        ":@computed_region_bdys_3d7i": "189",
+        ":@computed_region_43wa_7qmu": "9"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-07-31T00:00:00.000",
+        "park": "Union Park",
+        "park_phone": "(312) 746-5494",
+        "title": "The Incredibles 2",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The West Loop Community Organization",
+        "park_address": "1501 W. Randolph St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.66428183,
+                41.88471128
+            ]
+        },
+        ":@computed_region_rpca_8um6": "44",
+        ":@computed_region_vrxf_vc4k": "29",
+        ":@computed_region_6mkv_f3dw": "14917",
+        ":@computed_region_bdys_3d7i": "63",
+        ":@computed_region_43wa_7qmu": "46"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-06-11T00:00:00.000",
+        "park": "Ward (A. Montgomery) Park",
+        "park_phone": "(312) 742-7895",
+        "title": "Crazy Rich Asians",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The River North Resident's Association",
+        "park_address": "630 N. Kingsbury St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.64125791,
+                41.893015
+            ]
+        },
+        ":@computed_region_rpca_8um6": "55",
+        ":@computed_region_vrxf_vc4k": "37",
+        ":@computed_region_6mkv_f3dw": "4446",
+        ":@computed_region_bdys_3d7i": "652",
+        ":@computed_region_43wa_7qmu": "36"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-07-11T00:00:00.000",
+        "park": "Wicker Park",
+        "park_phone": "(312) 742-7553",
+        "title": "Les Miserables (1998)",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Wormhole Coffee",
+        "park_address": "1425 N. Damen Avenue",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67724924,
+                41.90795225
+            ]
+        },
+        ":@computed_region_rpca_8um6": "4",
+        ":@computed_region_vrxf_vc4k": "25",
+        ":@computed_region_6mkv_f3dw": "21560",
+        ":@computed_region_bdys_3d7i": "481",
+        ":@computed_region_43wa_7qmu": "41"
+    },
+    {
+        "day": "Sun",
+        "date": "2019-08-11T00:00:00.000",
+        "park": "Jonquil Playlot Park",
+        "park_phone": "(312) 742-7816",
+        "title": "Ralph Breaks the Internet",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Wrightwood Neighbors Association",
+        "park_address": "1001 W. Wrightwood Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65385229,
+                41.92889597
+            ]
+        },
+        ":@computed_region_rpca_8um6": "16",
+        ":@computed_region_vrxf_vc4k": "68",
+        ":@computed_region_6mkv_f3dw": "21190",
+        ":@computed_region_bdys_3d7i": "795",
+        ":@computed_region_43wa_7qmu": "34"
+    },
+    {
+        "day": "Sun",
+        "date": "2019-06-23T00:00:00.000",
+        "park": "Jonquil Playlot Park",
+        "park_phone": "(312) 742-7816",
+        "title": "Guardians of the Galaxy",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Wrightwood Neighbors Association",
+        "park_address": "1001 W. Wrightwood Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65385229,
+                41.92889597
+            ]
+        },
+        ":@computed_region_rpca_8um6": "16",
+        ":@computed_region_vrxf_vc4k": "68",
+        ":@computed_region_6mkv_f3dw": "21190",
+        ":@computed_region_bdys_3d7i": "795",
+        ":@computed_region_43wa_7qmu": "34"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-09T00:00:00.000",
+        "park": "Veteran's Memorial Park",
+        "park_phone": "(312) 747-6812",
+        "title": "Ralph Breaks the Internet",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "2820 E. 98th St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.55556913,
+                41.71739698
+            ]
+        },
+        ":@computed_region_rpca_8um6": "25",
+        ":@computed_region_vrxf_vc4k": "48",
+        ":@computed_region_6mkv_f3dw": "21202",
+        ":@computed_region_bdys_3d7i": "526",
+        ":@computed_region_43wa_7qmu": "47"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-09-09T00:00:00.000",
+        "park": "South Shore Cultural Center",
+        "park_phone": "(773) 256-0149",
+        "title": "Robin Hood",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "South Shore Cultural Center",
+        "park_address": "7059 S. South Shore Drive",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.56632372,
+                41.76660302
+            ]
+        },
+        ":@computed_region_rpca_8um6": "24",
+        ":@computed_region_vrxf_vc4k": "39",
+        ":@computed_region_6mkv_f3dw": "22538",
+        ":@computed_region_bdys_3d7i": "142",
+        ":@computed_region_43wa_7qmu": "33"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-23T00:00:00.000",
+        "park": "Churchill Field Playlot Park",
+        "park_phone": "(312) 742-7554",
+        "title": "The Sting",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Bucktown Community Organization",
+        "park_address": "1825 N. Damen Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67740738,
+                41.9146579
+            ]
+        },
+        ":@computed_region_rpca_8um6": "4",
+        ":@computed_region_vrxf_vc4k": "23",
+        ":@computed_region_6mkv_f3dw": "21560",
+        ":@computed_region_bdys_3d7i": "179",
+        ":@computed_region_43wa_7qmu": "40"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-26T00:00:00.000",
+        "park": "Portage Park",
+        "park_phone": "(773) 685-7235",
+        "title": "Mary Poppins Returns",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "4100 N. Long Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.76228458,
+                41.95510787
+            ]
+        },
+        ":@computed_region_rpca_8um6": "21",
+        ":@computed_region_vrxf_vc4k": "15",
+        ":@computed_region_6mkv_f3dw": "22618",
+        ":@computed_region_bdys_3d7i": "260",
+        ":@computed_region_43wa_7qmu": "19"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-08-20T00:00:00.000",
+        "park": "Ward (A. Montgomery) Park",
+        "park_phone": "(312) 742-7895",
+        "title": "The Incredibles 2",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The River North Resident's Association",
+        "park_address": "630 N. Kingsbury St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.64125791,
+                41.893015
+            ]
+        },
+        ":@computed_region_rpca_8um6": "55",
+        ":@computed_region_vrxf_vc4k": "37",
+        ":@computed_region_6mkv_f3dw": "4446",
+        ":@computed_region_bdys_3d7i": "652",
+        ":@computed_region_43wa_7qmu": "36"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-08-03T00:00:00.000",
+        "park": "Sauganash Park",
+        "park_phone": "(773) 685-6122",
+        "title": "The LEGO Movie 2",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Sauganash Community Association",
+        "park_address": "5861 N. Kostner Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73816907,
+                41.98806928
+            ]
+        },
+        ":@computed_region_rpca_8um6": "18",
+        ":@computed_region_vrxf_vc4k": "12",
+        ":@computed_region_6mkv_f3dw": "22532",
+        ":@computed_region_bdys_3d7i": "713",
+        ":@computed_region_43wa_7qmu": "38"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-06-27T00:00:00.000",
+        "park": "Wicker Park",
+        "park_phone": "(312) 742-7553",
+        "title": "Romeo + Juliet",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Wormhole Coffee",
+        "park_address": "1425 N. Damen Avenue",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67724924,
+                41.90795225
+            ]
+        },
+        ":@computed_region_rpca_8um6": "4",
+        ":@computed_region_vrxf_vc4k": "25",
+        ":@computed_region_6mkv_f3dw": "21560",
+        ":@computed_region_bdys_3d7i": "481",
+        ":@computed_region_43wa_7qmu": "41"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-02T00:00:00.000",
+        "park": "Ridge Park",
+        "park_phone": "(312) 747-6640",
+        "title": "Jaws",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "1817 W. 96th Street",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.66823047,
+                41.71920815
+            ]
+        },
+        ":@computed_region_rpca_8um6": "13",
+        ":@computed_region_vrxf_vc4k": "71",
+        ":@computed_region_6mkv_f3dw": "22212",
+        ":@computed_region_bdys_3d7i": "628",
+        ":@computed_region_43wa_7qmu": "42"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-06-18T00:00:00.000",
+        "park": "Roberts Square Playlot Park",
+        "park_phone": "(773) 685-3316",
+        "title": "The Rugrats Movie (1998)",
+        "cc": "Y",
+        "rating": "G",
+        "park_address": "5230 W. Argyle St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.75892379,
+                41.97166987
+            ]
+        },
+        ":@computed_region_rpca_8um6": "48",
+        ":@computed_region_vrxf_vc4k": "11",
+        ":@computed_region_6mkv_f3dw": "21869",
+        ":@computed_region_bdys_3d7i": "129",
+        ":@computed_region_43wa_7qmu": "50"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-08-06T00:00:00.000",
+        "park": "McGuane Park",
+        "park_phone": "(312) 747-6497",
+        "title": "Coco",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "2901 S. Poplar Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.64950769,
+                41.84134899
+            ]
+        },
+        ":@computed_region_rpca_8um6": "43",
+        ":@computed_region_vrxf_vc4k": "58",
+        ":@computed_region_6mkv_f3dw": "14920",
+        ":@computed_region_bdys_3d7i": "59",
+        ":@computed_region_43wa_7qmu": "48"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-16T00:00:00.000",
+        "park": "West Lawn Park",
+        "park_phone": "(773) 284-2803",
+        "title": "Mary Poppins Returns",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "St. Nicholas of Tolentine School",
+        "park_address": "4233 W. 65th St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.72884225,
+                41.77486501
+            ]
+        },
+        ":@computed_region_rpca_8um6": "58",
+        ":@computed_region_vrxf_vc4k": "63",
+        ":@computed_region_6mkv_f3dw": "21867",
+        ":@computed_region_bdys_3d7i": "6",
+        ":@computed_region_43wa_7qmu": "15"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-28T00:00:00.000",
+        "park": "Osterman Beach",
+        "park_phone": "(312) 742-1134",
+        "title": "That Thing You Do!",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "5800 N. Lake Shore Dr.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                41.9863754,
+                -87.6528859
+            ]
+        }
+    },
+    {
+        "day": "Sat",
+        "date": "2019-07-06T00:00:00.000",
+        "park": "O'Hallaren Park",
+        "park_phone": "(312) 747-6573",
+        "title": "Coco",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "8335 S. Honore St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.66914926,
+                41.74194234
+            ]
+        },
+        ":@computed_region_rpca_8um6": "59",
+        ":@computed_region_vrxf_vc4k": "70",
+        ":@computed_region_6mkv_f3dw": "21554",
+        ":@computed_region_bdys_3d7i": "532",
+        ":@computed_region_43wa_7qmu": "13"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-08-22T00:00:00.000",
+        "park": "Garfield Park",
+        "park_phone": "(312) 746-5092",
+        "title": "The Princess and the Frog",
+        "cc": "Y",
+        "rating": "G",
+        "park_address": "100 N. Central Park Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.71566523,
+                41.88335532
+            ]
+        },
+        ":@computed_region_rpca_8um6": "30",
+        ":@computed_region_vrxf_vc4k": "28",
+        ":@computed_region_6mkv_f3dw": "21572",
+        ":@computed_region_bdys_3d7i": "176",
+        ":@computed_region_43wa_7qmu": "23"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-08-15T00:00:00.000",
+        "park": "Davis Square Park",
+        "park_phone": "(312) 747-6107",
+        "title": "Teen Titans Go! To The Movies",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "4430 S. Marshfield Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.66646688,
+                41.81310599
+            ]
+        },
+        ":@computed_region_rpca_8um6": "37",
+        ":@computed_region_vrxf_vc4k": "59",
+        ":@computed_region_6mkv_f3dw": "14924",
+        ":@computed_region_bdys_3d7i": "706",
+        ":@computed_region_43wa_7qmu": "3"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-16T00:00:00.000",
+        "park": "Independence Park",
+        "park_phone": "(773) 478-3538",
+        "title": "Bohemian Rhapsody",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "3945 N. Springfield Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.72494811,
+                41.95322543
+            ]
+        },
+        ":@computed_region_rpca_8um6": "39",
+        ":@computed_region_vrxf_vc4k": "16",
+        ":@computed_region_6mkv_f3dw": "21538",
+        ":@computed_region_bdys_3d7i": "326",
+        ":@computed_region_43wa_7qmu": "50"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-06-17T00:00:00.000",
+        "park": "Grant Park: Logan Monument",
+        "park_phone": "(312) 742-1134",
+        "title": "Chicago",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "900 S. Michigan Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.62428661,
+                41.87055847
+            ]
+        },
+        ":@computed_region_rpca_8um6": "35",
+        ":@computed_region_vrxf_vc4k": "38",
+        ":@computed_region_6mkv_f3dw": "14913",
+        ":@computed_region_bdys_3d7i": "368",
+        ":@computed_region_43wa_7qmu": "10"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-07-27T00:00:00.000",
+        "park": "Mamie Till-Mobley Park",
+        "park_phone": "(312) 747-7661",
+        "title": "Coco",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "6404 S. Ellis Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.60055506,
+                41.77835204
+            ]
+        },
+        ":@computed_region_rpca_8um6": "60",
+        ":@computed_region_vrxf_vc4k": "9",
+        ":@computed_region_6mkv_f3dw": "22260",
+        ":@computed_region_bdys_3d7i": "347",
+        ":@computed_region_43wa_7qmu": "4"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-06-22T00:00:00.000",
+        "park": "Pulaski Park",
+        "park_phone": "(312) 742-7559",
+        "title": "Guardians of the Galaxy",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Museum of Science and Industry",
+        "park_address": "1419 W. Blackhawk St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.66360239,
+                41.90693712
+            ]
+        },
+        ":@computed_region_rpca_8um6": "49",
+        ":@computed_region_vrxf_vc4k": "25",
+        ":@computed_region_6mkv_f3dw": "22620",
+        ":@computed_region_bdys_3d7i": "483",
+        ":@computed_region_43wa_7qmu": "11"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-08-07T00:00:00.000",
+        "park": "Kelvyn Park",
+        "park_phone": "(312) 742-7547",
+        "title": "What I Feel for You / Lo Que Siento Por Ti",
+        "cc": "Y",
+        "rating": "NR",
+        "underwriter": "The International Latino Cultural Center",
+        "park_address": "4438 W. Wrightwood Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73827846,
+                41.92875053
+            ]
+        },
+        ":@computed_region_rpca_8um6": "2",
+        ":@computed_region_vrxf_vc4k": "21",
+        ":@computed_region_6mkv_f3dw": "22615",
+        ":@computed_region_bdys_3d7i": "439",
+        ":@computed_region_43wa_7qmu": "17"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-14T00:00:00.000",
+        "park": "Shedd Park",
+        "park_phone": "(773) 762-3168",
+        "title": "Night School",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "3660 W. 23rd St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.71735905,
+                41.84992518
+            ]
+        },
+        ":@computed_region_rpca_8um6": "57",
+        ":@computed_region_vrxf_vc4k": "32",
+        ":@computed_region_6mkv_f3dw": "21569",
+        ":@computed_region_bdys_3d7i": "754",
+        ":@computed_region_43wa_7qmu": "28"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-09T00:00:00.000",
+        "park": "Kells Playground Park",
+        "park_phone": "(312) 742-7544",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "Bickerdike Redevelopment Corp.",
+        "park_address": "3201 W. Chicago Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.7066155,
+                41.89544308
+            ]
+        },
+        ":@computed_region_rpca_8um6": "30",
+        ":@computed_region_vrxf_vc4k": "24",
+        ":@computed_region_6mkv_f3dw": "21572",
+        ":@computed_region_bdys_3d7i": "177",
+        ":@computed_region_43wa_7qmu": "46"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-08-14T00:00:00.000",
+        "park": "La Villita Park",
+        "park_phone": "(312) 747-6608",
+        "title": "Turbo",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "2800 S. Sacramento Blvd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.70018045,
+                41.8408764
+            ]
+        },
+        ":@computed_region_rpca_8um6": "57",
+        ":@computed_region_vrxf_vc4k": "32",
+        ":@computed_region_6mkv_f3dw": "21569",
+        ":@computed_region_bdys_3d7i": "124",
+        ":@computed_region_43wa_7qmu": "1"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-08-03T00:00:00.000",
+        "park": "Ogden Park",
+        "park_phone": "(312) 747-6572",
+        "title": "Ralph Breaks the Internet",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "6500 S. Racine Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65454639,
+                41.77588058
+            ]
+        },
+        ":@computed_region_rpca_8um6": "23",
+        ":@computed_region_vrxf_vc4k": "65",
+        ":@computed_region_6mkv_f3dw": "22257",
+        ":@computed_region_bdys_3d7i": "21",
+        ":@computed_region_43wa_7qmu": "31"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-06-26T00:00:00.000",
+        "park": "La Villita Park",
+        "park_phone": "(312) 747-6608",
+        "title": "The House with a Clock in its Walls",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "2800 S. Sacramento Blvd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.70018045,
+                41.8408764
+            ]
+        },
+        ":@computed_region_rpca_8um6": "57",
+        ":@computed_region_vrxf_vc4k": "32",
+        ":@computed_region_6mkv_f3dw": "21569",
+        ":@computed_region_bdys_3d7i": "124",
+        ":@computed_region_43wa_7qmu": "1"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-07-18T00:00:00.000",
+        "park": "Bartelme (Mary) Park",
+        "park_phone": "(312) 746-5962",
+        "title": "Space Jam",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Mary Bartelme Park Advisory Council",
+        "park_address": "115 S. Sangamon St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65066137,
+                41.87994748
+            ]
+        },
+        ":@computed_region_rpca_8um6": "44",
+        ":@computed_region_vrxf_vc4k": "29",
+        ":@computed_region_6mkv_f3dw": "14917",
+        ":@computed_region_bdys_3d7i": "91",
+        ":@computed_region_43wa_7qmu": "26"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-07-13T00:00:00.000",
+        "park": "Oz Park",
+        "park_phone": "(312) 742-7898",
+        "title": "Ghostbusters (1984)",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Oz Park Advisory Council",
+        "park_address": "2021 N. Burling St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.64717807,
+                41.9189011
+            ]
+        },
+        ":@computed_region_rpca_8um6": "16",
+        ":@computed_region_vrxf_vc4k": "68",
+        ":@computed_region_6mkv_f3dw": "21190",
+        ":@computed_region_bdys_3d7i": "798",
+        ":@computed_region_43wa_7qmu": "34"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-08-24T00:00:00.000",
+        "park": "Buttercup Playlot Park",
+        "park_phone": "(312) 742-7502",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "4901 N. Sheridan Rd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65473895,
+                41.97166865
+            ]
+        },
+        ":@computed_region_rpca_8um6": "15",
+        ":@computed_region_vrxf_vc4k": "31",
+        ":@computed_region_6mkv_f3dw": "22616",
+        ":@computed_region_bdys_3d7i": "635",
+        ":@computed_region_43wa_7qmu": "16"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-19T00:00:00.000",
+        "park": "Paschen Park",
+        "park_phone": "(773) 262-5871",
+        "title": "Ant-Man and the Wasp",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "1932 W. Lunt Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67923602,
+                42.00900097
+            ]
+        },
+        ":@computed_region_rpca_8um6": "9",
+        ":@computed_region_vrxf_vc4k": "10",
+        ":@computed_region_6mkv_f3dw": "21853",
+        ":@computed_region_bdys_3d7i": "44",
+        ":@computed_region_43wa_7qmu": "5"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-06-25T00:00:00.000",
+        "park": "Ward (A. Montgomery) Park",
+        "park_phone": "(312) 742-7895",
+        "title": "Black Panther",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The River North Resident's Association",
+        "park_address": "630 N. Kingsbury St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.64125791,
+                41.893015
+            ]
+        },
+        ":@computed_region_rpca_8um6": "55",
+        ":@computed_region_vrxf_vc4k": "37",
+        ":@computed_region_6mkv_f3dw": "4446",
+        ":@computed_region_bdys_3d7i": "652",
+        ":@computed_region_43wa_7qmu": "36"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-06-20T00:00:00.000",
+        "park": "Wilson (John P.) Park",
+        "park_phone": "(312) 747-7002",
+        "title": "The LEGO Movie 2",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "1122 W. 34th Pl.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65436337,
+                41.83167213
+            ]
+        },
+        ":@computed_region_rpca_8um6": "43",
+        ":@computed_region_vrxf_vc4k": "58",
+        ":@computed_region_6mkv_f3dw": "14920",
+        ":@computed_region_bdys_3d7i": "171",
+        ":@computed_region_43wa_7qmu": "48"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-08-08T00:00:00.000",
+        "park": "Washtenaw Park",
+        "park_phone": "(312) 747-4420",
+        "title": "Avengers: Infinity War",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "2521 S. Washtenaw Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.69267681,
+                41.84577829
+            ]
+        },
+        ":@computed_region_rpca_8um6": "43",
+        ":@computed_region_vrxf_vc4k": "32",
+        ":@computed_region_6mkv_f3dw": "14920",
+        ":@computed_region_bdys_3d7i": "263",
+        ":@computed_region_43wa_7qmu": "14"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-08-17T00:00:00.000",
+        "park": "Eckhart Park",
+        "park_phone": "(312) 746-5490",
+        "title": "Avengers: Infinity War",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "Friends of Eckhart Park",
+        "park_address": "1330 W. Chicago Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.6605556,
+                41.89628864
+            ]
+        },
+        ":@computed_region_rpca_8um6": "49",
+        ":@computed_region_vrxf_vc4k": "25",
+        ":@computed_region_6mkv_f3dw": "22620",
+        ":@computed_region_bdys_3d7i": "109",
+        ":@computed_region_43wa_7qmu": "46"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-06-29T00:00:00.000",
+        "park": "Grand Crossing Park",
+        "park_phone": "(312) 747-6158",
+        "title": "Smallfoot",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "7655 S. Ingleside Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.60149568,
+                41.75521198
+            ]
+        },
+        ":@computed_region_rpca_8um6": "61",
+        ":@computed_region_vrxf_vc4k": "67",
+        ":@computed_region_6mkv_f3dw": "21546",
+        ":@computed_region_bdys_3d7i": "497",
+        ":@computed_region_43wa_7qmu": "35"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-23T00:00:00.000",
+        "park": "Mann Park",
+        "park_phone": "(773) 646-0210",
+        "title": "Smallfoot",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "3035 E. 130st St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.54940208,
+                41.65905937
+            ]
+        },
+        ":@computed_region_rpca_8um6": "26",
+        ":@computed_region_vrxf_vc4k": "52",
+        ":@computed_region_6mkv_f3dw": "22250",
+        ":@computed_region_bdys_3d7i": "787",
+        ":@computed_region_43wa_7qmu": "47"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-08-12T00:00:00.000",
+        "park": "South Shore Cultural Center",
+        "park_phone": "(773) 256-0149",
+        "title": "Moana",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "7059 S. South Shore Drive",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.56632372,
+                41.76660302
+            ]
+        },
+        ":@computed_region_rpca_8um6": "24",
+        ":@computed_region_vrxf_vc4k": "39",
+        ":@computed_region_6mkv_f3dw": "22538",
+        ":@computed_region_bdys_3d7i": "142",
+        ":@computed_region_43wa_7qmu": "33"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-08-01T00:00:00.000",
+        "park": "Scottsdale Playground Park",
+        "park_phone": "(773) 284-1826",
+        "title": "The Incredibles 2",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "4637 W. 83rd St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73635951,
+                41.74191533
+            ]
+        },
+        ":@computed_region_rpca_8um6": "8",
+        ":@computed_region_vrxf_vc4k": "69",
+        ":@computed_region_6mkv_f3dw": "4300",
+        ":@computed_region_bdys_3d7i": "197",
+        ":@computed_region_43wa_7qmu": "30"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-06-20T00:00:00.000",
+        "park": "Edgebrook Park",
+        "park_phone": "(773) 631-7461",
+        "title": "Aquaman",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "6525 N. Hiawatha Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.7618211,
+                41.99946016
+            ]
+        },
+        ":@computed_region_rpca_8um6": "18",
+        ":@computed_region_vrxf_vc4k": "12",
+        ":@computed_region_6mkv_f3dw": "22532",
+        ":@computed_region_bdys_3d7i": "782",
+        ":@computed_region_43wa_7qmu": "29"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-14T00:00:00.000",
+        "park": "Eugene Field Park",
+        "park_phone": "(773) 478-9744",
+        "title": "Great Outdoors",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "5100 N. Ridgeway Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.72221154,
+                41.97380338
+            ]
+        },
+        ":@computed_region_rpca_8um6": "20",
+        ":@computed_region_vrxf_vc4k": "14",
+        ":@computed_region_6mkv_f3dw": "21849",
+        ":@computed_region_bdys_3d7i": "127",
+        ":@computed_region_43wa_7qmu": "38"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-07-10T00:00:00.000",
+        "park": "Kelvyn Park",
+        "park_phone": "(312) 742-7547",
+        "title": "Bumble Bee",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "4438 W. Wrightwood Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73827846,
+                41.92875053
+            ]
+        },
+        ":@computed_region_rpca_8um6": "2",
+        ":@computed_region_vrxf_vc4k": "21",
+        ":@computed_region_6mkv_f3dw": "22615",
+        ":@computed_region_bdys_3d7i": "439",
+        ":@computed_region_43wa_7qmu": "17"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-07-25T00:00:00.000",
+        "park": "Marquette Park",
+        "park_phone": "(312) 747-6469",
+        "title": "Hotel Transylvania 3",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "6743 S. Kedzie Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.70279647,
+                41.77040513
+            ]
+        },
+        ":@computed_region_rpca_8um6": "58",
+        ":@computed_region_vrxf_vc4k": "64",
+        ":@computed_region_6mkv_f3dw": "21867",
+        ":@computed_region_bdys_3d7i": "383",
+        ":@computed_region_43wa_7qmu": "31"
+    },
+    {
+        "day": "Sun",
+        "date": "2019-06-30T00:00:00.000",
+        "park": "Holstein Park",
+        "park_phone": "(312) 742-7554",
+        "title": "The LEGO Movie 2",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Bucktown Community Organization",
+        "park_address": "2200 N. Oakley Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.68525593,
+                41.92206895
+            ]
+        },
+        ":@computed_region_rpca_8um6": "1",
+        ":@computed_region_vrxf_vc4k": "23",
+        ":@computed_region_6mkv_f3dw": "22535",
+        ":@computed_region_bdys_3d7i": "324",
+        ":@computed_region_43wa_7qmu": "40"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-08-26T00:00:00.000",
+        "park": "South Shore Cultural Center",
+        "park_phone": "(773) 256-0149",
+        "title": "The Wiz",
+        "cc": "Y",
+        "rating": "G",
+        "park_address": "7059 S. South Shore Drive",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.56632372,
+                41.76660302
+            ]
+        },
+        ":@computed_region_rpca_8um6": "24",
+        ":@computed_region_vrxf_vc4k": "39",
+        ":@computed_region_6mkv_f3dw": "22538",
+        ":@computed_region_bdys_3d7i": "142",
+        ":@computed_region_43wa_7qmu": "33"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-12T00:00:00.000",
+        "park": "Gill Park",
+        "park_phone": "(312) 742-7802",
+        "title": "The Sandlot",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "825 W. Sheridan Rd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65067083,
+                41.9526213
+            ]
+        },
+        ":@computed_region_rpca_8um6": "53",
+        ":@computed_region_vrxf_vc4k": "57",
+        ":@computed_region_6mkv_f3dw": "21186",
+        ":@computed_region_bdys_3d7i": "83",
+        ":@computed_region_43wa_7qmu": "39"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-08-06T00:00:00.000",
+        "park": "Ward (A. Montgomery) Park",
+        "park_phone": "(312) 742-7895",
+        "title": "Green Book",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The River North Resident's Association",
+        "park_address": "630 N. Kingsbury St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.64125791,
+                41.893015
+            ]
+        },
+        ":@computed_region_rpca_8um6": "55",
+        ":@computed_region_vrxf_vc4k": "37",
+        ":@computed_region_6mkv_f3dw": "4446",
+        ":@computed_region_bdys_3d7i": "652",
+        ":@computed_region_43wa_7qmu": "36"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-06-24T00:00:00.000",
+        "park": "Cotton Tail Park",
+        "park_phone": "(312) 747-7640",
+        "title": "The LEGO Movie 2",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Greater South Loop Association",
+        "park_address": "44 W. 15th St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.62911255,
+                41.86203657
+            ]
+        },
+        ":@computed_region_rpca_8um6": "35",
+        ":@computed_region_vrxf_vc4k": "34",
+        ":@computed_region_6mkv_f3dw": "14913",
+        ":@computed_region_bdys_3d7i": "330",
+        ":@computed_region_43wa_7qmu": "9"
+    },
+    {
+        "day": "Sun",
+        "date": "2019-08-11T00:00:00.000",
+        "park": "Unity Playlot Park",
+        "park_phone": "(773) 478-1410",
+        "title": "Mary Poppins Returns",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Unity Park Advisory Council",
+        "park_address": "2636 N. Kimball Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.71237758,
+                41.92949896
+            ]
+        },
+        ":@computed_region_rpca_8um6": "1",
+        ":@computed_region_vrxf_vc4k": "23",
+        ":@computed_region_6mkv_f3dw": "22535",
+        ":@computed_region_bdys_3d7i": "72",
+        ":@computed_region_43wa_7qmu": "12"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-08-05T00:00:00.000",
+        "park": "Calumet Park",
+        "park_phone": "(312) 747-6039",
+        "title": "Hairspray",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "9801 S. Ave G",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.53150812,
+                41.71772004
+            ]
+        },
+        ":@computed_region_rpca_8um6": "25",
+        ":@computed_region_vrxf_vc4k": "49",
+        ":@computed_region_6mkv_f3dw": "21202",
+        ":@computed_region_bdys_3d7i": "705",
+        ":@computed_region_43wa_7qmu": "47"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-21T00:00:00.000",
+        "park": "Osterman Beach",
+        "park_phone": "(312) 742-1134",
+        "title": "French Cancan",
+        "cc": "Y",
+        "rating": "NR",
+        "underwriter": "The Cultural Service at the Consulate General of France",
+        "park_address": "5800 N. Lake Shore Dr.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                41.9863754,
+                -87.6528859
+            ]
+        }
+    },
+    {
+        "day": "Fri",
+        "date": "2019-06-28T00:00:00.000",
+        "park": "Owens Park",
+        "park_phone": "(312) 747-6709",
+        "title": "Bumble Bee",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "8800 S. Clyde",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.57339543,
+                41.73517227
+            ]
+        },
+        ":@computed_region_rpca_8um6": "25",
+        ":@computed_region_vrxf_vc4k": "44",
+        ":@computed_region_6mkv_f3dw": "21202",
+        ":@computed_region_bdys_3d7i": "473",
+        ":@computed_region_43wa_7qmu": "35"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-08-19T00:00:00.000",
+        "park": "Osterman Beach",
+        "park_phone": "(312) 742-1134",
+        "title": "Moulin Rouge",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "5800 N. Lake Shore Dr.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                41.9863754,
+                -87.6528859
+            ]
+        }
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-16T00:00:00.000",
+        "park": "Portage Park",
+        "park_phone": "(773) 685-7235",
+        "title": "A Dog's Way Home",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "4100 N. Long Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.76228458,
+                41.95510787
+            ]
+        },
+        ":@computed_region_rpca_8um6": "21",
+        ":@computed_region_vrxf_vc4k": "15",
+        ":@computed_region_6mkv_f3dw": "22618",
+        ":@computed_region_bdys_3d7i": "260",
+        ":@computed_region_43wa_7qmu": "19"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-06-19T00:00:00.000",
+        "park": "Chicago History Museum",
+        "park_phone": "(312) 742-1134",
+        "title": "To Wong Foo, Thanks for Everything, Julie Newmar",
+        "cc": "Y",
+        "rating": "PG-13",
+        "underwriter": "The Chicago History Museum",
+        "park_address": "1601 N. Clark St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.63156657,
+                41.91131036
+            ]
+        },
+        ":@computed_region_rpca_8um6": "16",
+        ":@computed_region_vrxf_vc4k": "68",
+        ":@computed_region_6mkv_f3dw": "21190",
+        ":@computed_region_bdys_3d7i": "271",
+        ":@computed_region_43wa_7qmu": "34"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-07-20T00:00:00.000",
+        "park": "DuSable Museum of African American History",
+        "park_phone": "(312) 742-1134",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The DuSable Museum of African American History",
+        "park_address": "740 E. 56th Pl.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.60685252,
+                41.79248002
+            ]
+        },
+        ":@computed_region_rpca_8um6": "60",
+        ":@computed_region_vrxf_vc4k": "7",
+        ":@computed_region_6mkv_f3dw": "22260",
+        ":@computed_region_bdys_3d7i": "401",
+        ":@computed_region_43wa_7qmu": "4"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-06-12T00:00:00.000",
+        "park": "Brands Park",
+        "park_phone": "(773) 478-2414",
+        "title": "Moana",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "3259 N. Elston Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.69986095,
+                41.94059875
+            ]
+        },
+        ":@computed_region_rpca_8um6": "39",
+        ":@computed_region_vrxf_vc4k": "22",
+        ":@computed_region_6mkv_f3dw": "21538",
+        ":@computed_region_bdys_3d7i": "425",
+        ":@computed_region_43wa_7qmu": "20"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-07-27T00:00:00.000",
+        "park": "Ellis (Samuel) Park",
+        "park_phone": "(312) 656-0423",
+        "title": "Creed II",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "535 E. 35th St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.61291629,
+                41.8310921
+            ]
+        },
+        ":@computed_region_rpca_8um6": "36",
+        ":@computed_region_vrxf_vc4k": "1",
+        ":@computed_region_6mkv_f3dw": "21194",
+        ":@computed_region_bdys_3d7i": "561",
+        ":@computed_region_43wa_7qmu": "10"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-08-01T00:00:00.000",
+        "park": "Archer Park",
+        "park_phone": "(773) 284-7029",
+        "title": "Bumble Bee",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "4901 S.Kilbourn Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.73556627,
+                41.80391551
+            ]
+        },
+        ":@computed_region_rpca_8um6": "56",
+        ":@computed_region_vrxf_vc4k": "54",
+        ":@computed_region_6mkv_f3dw": "22248",
+        ":@computed_region_bdys_3d7i": "697",
+        ":@computed_region_43wa_7qmu": "8"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-07-11T00:00:00.000",
+        "park": "Normandy Playground Park",
+        "park_phone": "(773) 229-1421",
+        "title": "Mary Poppins Returns",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "6660 W. 52nd St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.78923279,
+                41.79785925
+            ]
+        },
+        ":@computed_region_rpca_8um6": "7",
+        ":@computed_region_vrxf_vc4k": "53",
+        ":@computed_region_6mkv_f3dw": "22268",
+        ":@computed_region_bdys_3d7i": "588",
+        ":@computed_region_43wa_7qmu": "8"
+    },
+    {
+        "day": "Wed",
+        "date": "2019-08-21T00:00:00.000",
+        "park": "Chicago History Museum",
+        "park_phone": "(312) 742-1134",
+        "title": "Singin' in the Rain",
+        "cc": "Y",
+        "rating": "G",
+        "underwriter": "The Chicago History Museum",
+        "park_address": "1601 N. Clark St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.63156657,
+                41.91131036
+            ]
+        },
+        ":@computed_region_rpca_8um6": "16",
+        ":@computed_region_vrxf_vc4k": "68",
+        ":@computed_region_6mkv_f3dw": "21190",
+        ":@computed_region_bdys_3d7i": "271",
+        ":@computed_region_43wa_7qmu": "34"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-16T00:00:00.000",
+        "park": "Ward (A. Montgomery) Park",
+        "park_phone": "(312) 742-7895",
+        "title": "The 400 Blows",
+        "cc": "Y",
+        "rating": "NR",
+        "underwriter": "The Cultural Service at the Consulate General of France",
+        "park_address": "630 N. Kingsbury St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.64125791,
+                41.893015
+            ]
+        },
+        ":@computed_region_rpca_8um6": "55",
+        ":@computed_region_vrxf_vc4k": "37",
+        ":@computed_region_6mkv_f3dw": "4446",
+        ":@computed_region_bdys_3d7i": "652",
+        ":@computed_region_43wa_7qmu": "36"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-30T00:00:00.000",
+        "park": "Gage Park",
+        "park_phone": "(312) 747-6147",
+        "title": "Mary Poppins Returns",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "2411 W. 55th St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.684513,
+                41.79374925
+            ]
+        },
+        ":@computed_region_rpca_8um6": "58",
+        ":@computed_region_vrxf_vc4k": "61",
+        ":@computed_region_6mkv_f3dw": "22248",
+        ":@computed_region_bdys_3d7i": "112",
+        ":@computed_region_43wa_7qmu": "3"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-06-27T00:00:00.000",
+        "park": "Vittum Park",
+        "park_phone": "(773) 284-6022",
+        "title": "Ralph Breaks the Internet",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "5010 W. 50th St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.74838435,
+                41.80218518
+            ]
+        },
+        ":@computed_region_rpca_8um6": "7",
+        ":@computed_region_vrxf_vc4k": "53",
+        ":@computed_region_6mkv_f3dw": "22268",
+        ":@computed_region_bdys_3d7i": "605",
+        ":@computed_region_43wa_7qmu": "28"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-06-15T00:00:00.000",
+        "park": "Winnemac Park",
+        "park_phone": "(312) 742-5101",
+        "title": "Aquaman",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "5100 N. Leavitt St",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.68437099,
+                41.97406708
+            ]
+        },
+        ":@computed_region_rpca_8um6": "20",
+        ":@computed_region_vrxf_vc4k": "6",
+        ":@computed_region_6mkv_f3dw": "21849",
+        ":@computed_region_bdys_3d7i": "54",
+        ":@computed_region_43wa_7qmu": "24"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-09T00:00:00.000",
+        "park": "Vittum Park",
+        "park_phone": "(773) 284-6022",
+        "title": "The Incredibles 2",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "5010 W. 50th St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.74838435,
+                41.80218518
+            ]
+        },
+        ":@computed_region_rpca_8um6": "7",
+        ":@computed_region_vrxf_vc4k": "53",
+        ":@computed_region_6mkv_f3dw": "22268",
+        ":@computed_region_bdys_3d7i": "605",
+        ":@computed_region_43wa_7qmu": "28"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-08-23T00:00:00.000",
+        "park": "Fosco Park",
+        "park_phone": "(312) 746-5086",
+        "title": "Creed II",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "1312 S. Racine Ave",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.65676659,
+                41.86485873
+            ]
+        },
+        ":@computed_region_rpca_8um6": "43",
+        ":@computed_region_vrxf_vc4k": "29",
+        ":@computed_region_6mkv_f3dw": "14920",
+        ":@computed_region_bdys_3d7i": "96",
+        ":@computed_region_43wa_7qmu": "26"
+    },
+    {
+        "day": "Sat",
+        "date": "2019-07-06T00:00:00.000",
+        "park": "Walsh Playground Park",
+        "park_phone": "(312) 742-7769",
+        "title": "Cleo from 5 to 7 / Cleo de 5 a 7",
+        "cc": "Y",
+        "rating": "NR",
+        "underwriter": "The Cultural Service at the Consulate General of France",
+        "park_address": "1722 N. Ashland Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.66790828,
+                41.91316569
+            ]
+        },
+        ":@computed_region_rpca_8um6": "4",
+        ":@computed_region_vrxf_vc4k": "25",
+        ":@computed_region_6mkv_f3dw": "21560",
+        ":@computed_region_bdys_3d7i": "437",
+        ":@computed_region_43wa_7qmu": "40"
+    },
+    {
+        "day": "Tue",
+        "date": "2019-07-02T00:00:00.000",
+        "park": "Kells Playground Park",
+        "park_phone": "(312) 742-7544",
+        "title": "Bumble Bee",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "3201 W. Chicago Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.7066155,
+                41.89544308
+            ]
+        },
+        ":@computed_region_rpca_8um6": "30",
+        ":@computed_region_vrxf_vc4k": "24",
+        ":@computed_region_6mkv_f3dw": "21572",
+        ":@computed_region_bdys_3d7i": "177",
+        ":@computed_region_43wa_7qmu": "46"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-08-15T00:00:00.000",
+        "park": "Maggie Daley Park",
+        "park_phone": "(312) 742-3918",
+        "title": "Cloudy With a Chance of Meatballs",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "The Museum of Science and Industry",
+        "park_address": "337 E. Randolph St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.61933906,
+                41.88422161
+            ]
+        },
+        ":@computed_region_rpca_8um6": "41",
+        ":@computed_region_vrxf_vc4k": "38",
+        ":@computed_region_6mkv_f3dw": "14309",
+        ":@computed_region_bdys_3d7i": "580",
+        ":@computed_region_43wa_7qmu": "36"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-07-15T00:00:00.000",
+        "park": "Chippewa Park",
+        "park_phone": "(773) 731-0380",
+        "title": "Ralph Breaks the Internet",
+        "cc": "Y",
+        "rating": "PG",
+        "underwriter": "Alderman Debra Silverstein",
+        "park_address": "6748 N. Sacramento Ave.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.70475177,
+                42.00438076
+            ]
+        },
+        ":@computed_region_rpca_8um6": "12",
+        ":@computed_region_vrxf_vc4k": "20",
+        ":@computed_region_6mkv_f3dw": "22528",
+        ":@computed_region_bdys_3d7i": "32",
+        ":@computed_region_43wa_7qmu": "27"
+    },
+    {
+        "day": "Mon",
+        "date": "2019-07-22T00:00:00.000",
+        "park": "Harold Washington Playlot Park",
+        "park_phone": "(312) 747-6620",
+        "title": "Dreamgirls",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "5200 S. Hyde Park Blvd.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.58450476,
+                41.80047033
+            ]
+        },
+        ":@computed_region_rpca_8um6": "10",
+        ":@computed_region_vrxf_vc4k": "8",
+        ":@computed_region_6mkv_f3dw": "21192",
+        ":@computed_region_bdys_3d7i": "405",
+        ":@computed_region_43wa_7qmu": "33"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-26T00:00:00.000",
+        "park": "Oakdale Park",
+        "park_phone": "(312) 747-6569",
+        "title": "Black Panther",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "965 W. 95th St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.64801198,
+                41.72129198
+            ]
+        },
+        ":@computed_region_rpca_8um6": "13",
+        ":@computed_region_vrxf_vc4k": "72",
+        ":@computed_region_6mkv_f3dw": "22212",
+        ":@computed_region_bdys_3d7i": "592",
+        ":@computed_region_43wa_7qmu": "13"
+    },
+    {
+        "day": "Fri",
+        "date": "2019-07-12T00:00:00.000",
+        "park": "Meyering Playground Park",
+        "park_phone": "(312) 747-6545",
+        "title": "Night School",
+        "cc": "Y",
+        "rating": "PG-13",
+        "park_address": "7140 S. Martin Luther King Dr.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.61540433,
+                41.76448442
+            ]
+        },
+        ":@computed_region_rpca_8um6": "61",
+        ":@computed_region_vrxf_vc4k": "67",
+        ":@computed_region_6mkv_f3dw": "21546",
+        ":@computed_region_bdys_3d7i": "474",
+        ":@computed_region_43wa_7qmu": "32"
+    },
+    {
+        "day": "Thu",
+        "date": "2019-07-18T00:00:00.000",
+        "park": "Commercial Club Playground",
+        "park_phone": "(312) 742-7558",
+        "title": "The Incredibles 2",
+        "cc": "Y",
+        "rating": "PG",
+        "park_address": "1845 W. Rice St.",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -87.67398364,
+                41.89676186
+            ]
+        },
+        ":@computed_region_rpca_8um6": "4",
+        ":@computed_region_vrxf_vc4k": "25",
+        ":@computed_region_6mkv_f3dw": "21560",
+        ":@computed_region_bdys_3d7i": "462",
+        ":@computed_region_43wa_7qmu": "41"
+    }
+]

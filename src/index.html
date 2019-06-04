@@ -13,16 +13,22 @@
     <!-- Application Scripts -->
     <script src="./scripts/main.js"></script>
     <script src="./scripts/movieData.js"></script>
+    <script src="./scripts/sunset.js"></script>
+    <script src="./scripts/moment.js"></script>
 
     <title>Find Chicago Movies at the Park Near Me</title>
   </head>
   <body>
     <main>
-      <div>
-        <button class="btn btn-primary" id="getMovieButton">Get Movie</button>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MovieModalCenter" onClick="displayMovies();">
-            Launch demo modal
-          </button>
+      <div class="container pt" style="text-align: center;">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Find Parks
+        </button>
+        <div class="dropdown-menu">
+          <button class="dropdown-item radius" href="#" value="1">1 mile radius</button>
+          <button class="dropdown-item radius" href="#" value="2">2 mile radius</button>
+          <button class="dropdown-item radius" href="#" value="3">3 mile radius</button
+        </div>
       </div>
       <div id="park-list_container"  class="container-fluid px-5">
         <div id="park-list_row" class="row justify-content-start">
@@ -30,26 +36,5 @@
         </div>
       </div>
     </main>
-
-    <!-- Modal to display mvoies -->
-    <div class="modal fade" id="movie-modal" tabindex="-1" role="dialog" aria-labelledby="movie-modal_title" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="movie-modal_title">Park Title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div id="movie-modal_body" class="modal-body">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </body>
 </html>

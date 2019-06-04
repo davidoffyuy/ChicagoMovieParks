@@ -49,24 +49,77 @@ class movieData {
   }
 
   getMoviesNearByPark(lat, long, dist) {
-    const self = this;
-    const moviesNear = self.getMoviesNear(lat, long, dist);
-    const moviesNearByPark = {};
-    console.log(moviesNear);
-    for (let movie of moviesNear) {
-      let parkKey = movie.park.replace(/[^A-Z0-9]/ig, '');
-      // Check if park exists already. If it does, add to array. Else create new key
-      if (parkKey in moviesNearByPark) {
-        moviesNearByPark[parkKey].movies.push({...movie});
+    return new Promise((resolve, reject) => {
+      const self = this;
+      const moviesNear = self.getMoviesNear(lat, long, dist);
+      const moviesNearByPark = {};
+      console.log(moviesNear);
+  
+      const asyncTotalCount = moviesNear.length;
+      let asyncCount = 0;
+  
+      for (let movie of moviesNear) {
+        let parkKey = movie.park.replace(/[^A-Z0-9]/ig, '');
+        // Check if park exists already. If it does, add to array. Else create new key
+
+        const movieDate = moment(movie.date);
+        const lat = movie.location.coordinates[1];
+        const long = movie.location.coordinates[0];
+        getSunset(lat, long, movieDate.format("YYYY-MM-DD"), (sunsetData) => {
+          const sunsetTime = moment(sunsetData.results.sunset);
+  
+          if (parkKey in moviesNearByPark) {
+            moviesNearByPark[parkKey].movies.push({sunsetTime: sunsetTime, ...movie});
+          }
+          else {
+            moviesNearByPark[parkKey] = {
+              movies: [{sunsetTime: sunsetTime, ...movie}],
+              distance: calcLatLongDist(lat, long, movie.location.coordinates[1], movie.location.coordinates[0])};
+          }
+          asyncCount++;
+          if (asyncCount === asyncTotalCount) {
+            resolve(moviesNearByPark);
+          }
+        });
       }
-      else {
-        moviesNearByPark[parkKey] = {
-          movies: [{...movie}],
-          distance: calcLatLongDist(lat, long, movie.location.coordinates[1], movie.location.coordinates[0])};
-      }
-    }
-    return moviesNearByPark;
+    });
   }
+
+  // getMoviesNearByPark(lat, long, dist) {
+  //   const self = this;
+  //   const moviesNear = self.getMoviesNear(lat, long, dist);
+  //   const moviesNearByPark = {};
+  //   console.log(moviesNear);
+
+  //   const asyncTotalCount = moviesNear.length;
+  //   const asynCount = 0;
+
+  //   for (let movie of moviesNear) {
+  //     let parkKey = movie.park.replace(/[^A-Z0-9]/ig, '');
+  //     // Check if park exists already. If it does, add to array. Else create new key
+
+  //     const movieDate = moment(movie.date);
+  //     const lat = movie.location.coordinates[1];
+  //     const long = movie.location.coordinates[0];
+  //     getSunset(lat, long, movieDate.format("YYYY-MM-DD"), (sunsetData) => {
+  //       const sunsetTime = moment(sunsetData.results.sunset);
+
+  //       if (parkKey in moviesNearByPark) {
+  //         moviesNearByPark[parkKey].movies.push({sunsetTime: sunsetTime, ...movie});
+  //       }
+  //       else {
+  //         moviesNearByPark[parkKey] = {
+  //           movies: [{sunsetTime: sunsetTime, ...movie}],
+  //           distance: calcLatLongDist(lat, long, movie.location.coordinates[1], movie.location.coordinates[0])};
+  //       }
+  //       asyncCount++;
+  //       if (asyncCount = asyncTotalCount) {
+          
+  //       }
+  //     });
+  //   } 
+  //   return moviesNearByPark;
+  // }
 }
 
 //calculate the distance between two points using latitude and longitude

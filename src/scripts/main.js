@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 const getMovieData = distance => {
+  document.getElementById('global-loader').classList.remove("d-none");
   // Get location of myself
   navigator.geolocation.getCurrentPosition(position => {
     const myLat = position.coords.latitude;
@@ -40,6 +41,7 @@ const getMovieData = distance => {
 
 const generateParks = parkData => {
   const movieContainer = document.getElementById('park-list_row');
+  document.getElementById('global-loader').classList.add("d-none");
   for (let parkKey in parkData) {
     const park = parkData[parkKey];
     const parkDiv = document.createElement('div');

@@ -16,18 +16,24 @@
     <script src="./scripts/sunset.js"></script>
     <script src="./scripts/moment.js"></script>
 
+    <!-- Application CSS -->
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./loader.css" />
+
     <title>Find Chicago Movies at the Park Near Me</title>
   </head>
   <body>
     <main>
+
+      <!-- Main Content for Parks and Movies -->
       <div class="container pt" style="text-align: center;">
-        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Find Parks
         </button>
         <div class="dropdown-menu">
           <button class="dropdown-item radius" href="#" value="1">1 mile radius</button>
           <button class="dropdown-item radius" href="#" value="2">2 mile radius</button>
-          <button class="dropdown-item radius" href="#" value="3">3 mile radius</button
+          <button class="dropdown-item radius" href="#" value="3">3 mile radius</button>
         </div>
       </div>
       <div id="park-list_container"  class="container-fluid px-5">
@@ -35,6 +41,9 @@
           <!-- Content generated here -->
         </div>
       </div>
+
+      <!-- Loader to be displayed when loading -->
+      <div id="global-loader" class="loader d-none">Loader</div>
     </main>
   </body>
 </html>

@@ -54,12 +54,13 @@ class movieData {
     const moviesNearByPark = {};
     console.log(moviesNear);
     for (let movie of moviesNear) {
-      // Check if park exists already. If it does, add to array 
-      if (movie.park in moviesNearByPark) {
-        moviesNearByPark[movie.park].movies.push({...movie});
+      let parkKey = movie.park.replace(/[^A-Z0-9]/ig, '');
+      // Check if park exists already. If it does, add to array. Else create new key
+      if (parkKey in moviesNearByPark) {
+        moviesNearByPark[parkKey].movies.push({...movie});
       }
       else {
-        moviesNearByPark[movie.park] = {
+        moviesNearByPark[parkKey] = {
           movies: [{...movie}],
           distance: calcLatLongDist(lat, long, movie.location.coordinates[1], movie.location.coordinates[0])};
       }

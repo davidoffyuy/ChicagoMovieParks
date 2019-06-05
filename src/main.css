@@ -1,3 +1,12 @@
-.loader-hidden {
-  display: none !important;
+.show {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.park-container-transition {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s linear, visibility 1s linear;
+  -moz-transition: opacity 1s linea,r visibility 1s linear;
+  -webkit-transition: opacity 1s linear, visibility 1s linear;
 }

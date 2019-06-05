@@ -3,21 +3,18 @@ let myMovieData = "";
 let myMovies = "";
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log('hello');
-  const distanceButtons = document.getElementsByClassName('radius');
-  console.log(distanceButtons);
+  const distanceButtons = document.getElementsByClassName("radius");
   for (let distanceButton of distanceButtons) {
     let value = distanceButton.value;
-    console.log(value);
     distanceButton.addEventListener("click", event => {
-      document.getElementById('park-list_row').innerHTML = '';
+      document.getElementById("park-list_row").innerHTML = "";
       getMovieData(value);
-    })
+    });
   }
-})
+});
 
 const getMovieData = distance => {
-  document.getElementById('global-loader').classList.remove("d-none");
+  document.getElementById("global-loader").classList.remove("d-none");
   // Get location of myself
   navigator.geolocation.getCurrentPosition(position => {
     const myLat = position.coords.latitude;
@@ -28,59 +25,80 @@ const getMovieData = distance => {
     // Fetch movies and print on screen.
     myMovieData = new movieData();
     myMovieData.fetchData(() => {
-      myMovieData.getMoviesNearByPark(myLat, myLong, distance)
-      .then(data => {
-        myMovies = data;
-        generateParks(myMovies);
-      });
+      myMovies = myMovieData.getMoviesNearByPark(myLat, myLong, distance);
+      generateParks(myMovies);
     });
-  }, error => {
-    console.log(error);
   });
-}
+};
 
 const generateParks = parkData => {
-  const movieContainer = document.getElementById('park-list_row');
-  document.getElementById('global-loader').classList.add("d-none");
+  const movieContainer = document.getElementById("park-list_row");
+  document.getElementById("global-loader").classList.add("d-none");
   for (let parkKey in parkData) {
     const park = parkData[parkKey];
-    const parkDiv = document.createElement('div');
-    parkDiv.classList.add("col-12", "col-sm-12", "col-md-12", "col-lg-12", "col-xl-12", "py-3");
+    const parkDiv = document.createElement("div");
+    parkDiv.classList.add(
+      "col-12",
+      "col-sm-12",
+      "col-md-12",
+      "col-lg-12",
+      "col-xl-12",
+      "py-3",
+      // "d-none",
+      "park-container-transition"
+    );
+    parkDiv.id = parkKey + "-container";
     parkDiv.innerHTML = `
-      <div class="card mx-auto w-auto">
+      <div id="${parkKey}-card" class="card mx-auto w-auto">
         <div id="${parkKey}-card_body" class="card-body">
-          <h4 class="card-title">${park.movies[0].park}: ${park.movies[0].park_address} (${park.distance.toFixed(2)} miles) </h4>
+          <h4 class="card-title">${park.movies[0].park}: ${park.movies[0].park_address} (${park.distance.toFixed(
+      2
+    )} miles) </h4>
             <div id="${parkKey}_card-movies" class="container row">
             </div>
-            <a href="http://maps.google.com/maps?z=12&t=m&q=loc:${park.movies[0].location.coordinates[1]}+${park.movies[0].location.coordinates[0]}" class="btn btn-primary">Show Location</a>
+            <a href="http://maps.google.com/maps?z=12&t=m&q=loc:${park.movies[0].location.coordinates[1]}+${
+      park.movies[0].location.coordinates[0]
+    }" class="btn btn-primary">Show Location</a>
         </div>
       </div>
     `;
     movieContainer.appendChild(parkDiv);
     displayMovies(parkKey);
   }
-}
+};
 
-const displayMovies = parkName => {
-  const parkMoviesDiv = document.getElementById(parkName + "_card-movies");
-  parkMoviesDiv.innerHTML = '';
+const displayMovies = parkKey => {
+  const parkMoviesDiv = document.getElementById(parkKey + "_card-movies");
+  parkMoviesDiv.innerHTML = "";
+  const parkLength = myMovies[parkKey].movies.length;
+  let parkCounter = 0;
 
-  for (let movie of myMovies[parkName].movies) {
-    const movieDiv = document.createElement('div');
+  for (let movie of myMovies[parkKey].movies) {
+    const movieDiv = document.createElement("div");
     const movieDate = moment(movie.date);
+    const lat = movie.location.coordinates[1];
+    const long = movie.location.coordinates[0];
 
-    // movieDiv.classList.add("col-12", "col-sm-6", "col-md-6", "col-lg-4", "col-xl-4", "py-3");
-    movieDiv.classList.add( "col-12", "col-sm-6", "col-md-6", "col-lg-4", "col-xl-4", "py-3");
-    movieDiv.innerHTML = `
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">${movie.title}</h5>
-          <div>${movieDate.format('dddd, MMMM Do YYYY')}</div>
-          <div>Sunset Showing Time - ${movie.sunsetTime.format('h:mm:ss a')}</div>
-          <div>Rating: ${movie.rating}</div>
+    getSunset(lat, long, movieDate.format("YYYY-MM-DD"), sunsetData => {
+      const sunsetTime = moment(sunsetData.results.sunset);
+      movieDiv.classList.add("col-12", "col-sm-6", "col-md-6", "col-lg-4", "col-xl-4", "py-3");
+      movieDiv.innerHTML = `
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">${movie.title}</h5>
+            <div>${movieDate.format("dddd, MMMM Do YYYY")}</div>
+            <div>Sunset Showing Time - ${sunsetTime.format("h:mm a")}</div>
+            <div>Rating: ${movie.rating}</div>
+          </div>
         </div>
-      </div>
-    `;
-    parkMoviesDiv.appendChild(movieDiv);
+      `;
+      parkMoviesDiv.appendChild(movieDiv);
+
+      parkCounter++;
+      if (parkCounter === parkLength) {
+        const parkContainerDiv = document.getElementById(parkKey + "-container");
+        parkContainerDiv.classList.add('show');
+      }
+    });
   }
-}
+};

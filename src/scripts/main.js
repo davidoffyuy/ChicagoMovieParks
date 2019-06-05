@@ -49,7 +49,7 @@ const generateParks = parkData => {
     parkDiv.innerHTML = `
       <div class="card mx-auto w-auto">
         <div id="${parkKey}-card_body" class="card-body">
-          <h4 class="card-title">${park.movies[0].park}: ${park.movies[0].park_address} </h4>
+          <h4 class="card-title">${park.movies[0].park}: ${park.movies[0].park_address} (${park.distance.toFixed(2)} miles) </h4>
             <div id="${parkKey}_card-movies" class="container row">
             </div>
             <a href="http://maps.google.com/maps?z=12&t=m&q=loc:${park.movies[0].location.coordinates[1]}+${park.movies[0].location.coordinates[0]}" class="btn btn-primary">Show Location</a>

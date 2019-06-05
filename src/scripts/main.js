@@ -19,21 +19,38 @@ const getMovieData = distance => {
   navigator.geolocation.getCurrentPosition(position => {
     const myLat = position.coords.latitude;
     const myLong = position.coords.longitude;
-    // const myLat = 41.847767;
-    // const myLong = -87.623683;
+    // const myLat = 40;
+    // const myLong = -87;
 
     // Fetch movies and print on screen.
     myMovieData = new movieData();
     myMovieData.fetchData(() => {
       myMovies = myMovieData.getMoviesNearByPark(myLat, myLong, distance);
-      generateParks(myMovies);
+      document.getElementById("global-loader").classList.add("d-none");
+
+      if (!jQuery.isEmptyObject(myMovies)) {
+        generateParks(myMovies);
+      }
+      else {
+        displayMessage("No Parks Found Near You");
+      }
     });
   });
 };
 
+const displayMessage = message  => {
+  const movieContainer = document.getElementById("park-list_row");
+  const messageDiv = document.createElement('div');
+
+  messageDiv.classList.add("text-center", "mx-auto", "py-3")
+  movieContainer.innerHTML = "";
+  messageDiv.innerHTML = message;
+  movieContainer.appendChild(messageDiv);
+}
+
 const generateParks = parkData => {
   const movieContainer = document.getElementById("park-list_row");
-  document.getElementById("global-loader").classList.add("d-none");
+  movieContainer.innerHTML = "";
   for (let parkKey in parkData) {
     const park = parkData[parkKey];
     const parkDiv = document.createElement("div");

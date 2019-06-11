@@ -1,6 +1,6 @@
 // Create movieData object. This object is global so it can be accessed by other functions.
 let myMovieData = "";
-let myMovies = "";
+let myMovies = [];
 
 document.addEventListener("DOMContentLoaded", () => {
   const distanceButtons = document.getElementsByClassName("radius");
@@ -14,7 +14,11 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const getMovieData = distance => {
+
+  //show loader and hide button
   document.getElementById("global-loader").classList.remove("d-none");
+  document.getElementById('find-button').classList.add('invisible');
+  
   // Get location of myself
   navigator.geolocation.getCurrentPosition(position => {
     const myLat = position.coords.latitude;
@@ -25,8 +29,11 @@ const getMovieData = distance => {
     // Fetch movies and print on screen.
     myMovieData = new movieData();
     myMovieData.fetchData(() => {
-      myMovies = myMovieData.getMoviesNearByPark(myLat, myLong, distance);
+      myMovies.push(...myMovieData.getMoviesNearByPark(myLat, myLong, distance));
+
+      // Hide loader and show button again
       document.getElementById("global-loader").classList.add("d-none");
+      document.getElementById('find-button').classList.remove('invisible');
 
       if (!jQuery.isEmptyObject(myMovies)) {
         generateParks(myMovies);

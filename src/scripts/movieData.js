@@ -34,12 +34,13 @@ class movieData {
   }
 
   // Returns an array with all movies showing in parks near me
-  getMoviesNear(lat, long, dist) {
+  getMoviesNear(lat, long, minDist, maxDist) {
+
     // get movies for parks near me
     return this.data.filter(movie => {
       if (movie.location) {
         const milesBetween = calcLatLongDist(lat, long, movie.location.coordinates[1], movie.location.coordinates[0]);
-        return milesBetween <= dist;
+        return (milesBetween >= minDist) && (milesBetween < maxDist);
       }
       else {
         return false;
@@ -84,9 +85,9 @@ class movieData {
   //   });
   // }
 
-  getMoviesNearByPark(lat, long, dist) {
+  getMoviesNearByPark(lat, long, minDist, maxDist) {
     const self = this;
-    const moviesNear = self.getMoviesNear(lat, long, dist);
+    const moviesNear = self.getMoviesNear(lat, long, minDist, maxDist);
     const moviesNearByParkObj = {};
 
     for (let movie of moviesNear) {

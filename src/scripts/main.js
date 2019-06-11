@@ -1,19 +1,15 @@
 // Create movieData object. This object is global so it can be accessed by other functions.
 let myMovieData = "";
 let myMovies = [];
+let queryDistance = 0;
 
 document.addEventListener("DOMContentLoaded", () => {
-  const distanceButtons = document.getElementsByClassName("radius");
-  for (let distanceButton of distanceButtons) {
-    let value = distanceButton.value;
-    distanceButton.addEventListener("click", event => {
-      document.getElementById("park-list_row").innerHTML = "";
-      getMovieData(value);
-    });
-  }
+  document.getElementById("find-button").addEventListener("click", event => {
+    getMovieData(queryDistance, queryDistance + 1);
+  });
 });
 
-const getMovieData = distance => {
+const getMovieData = (minDist, maxDist) => {
 
   //show loader and hide button
   document.getElementById("global-loader").classList.remove("d-none");
@@ -29,11 +25,10 @@ const getMovieData = distance => {
     // Fetch movies and print on screen.
     myMovieData = new movieData();
     myMovieData.fetchData(() => {
-      myMovies.push(...myMovieData.getMoviesNearByPark(myLat, myLong, distance));
+      myMovies = myMovieData.getMoviesNearByPark(myLat, myLong, minDist, maxDist);
 
       // Hide loader and show button again
       document.getElementById("global-loader").classList.add("d-none");
-      document.getElementById('find-button').classList.remove('invisible');
 
       if (!jQuery.isEmptyObject(myMovies)) {
         generateParks(myMovies);
@@ -49,15 +44,13 @@ const displayMessage = message  => {
   const movieContainer = document.getElementById("park-list_row");
   const messageDiv = document.createElement('div');
 
-  messageDiv.classList.add("text-center", "mx-auto", "py-3")
-  movieContainer.innerHTML = "";
+  messageDiv.classList.add("text-center", "mx-auto", "py-3");
   messageDiv.innerHTML = message;
   movieContainer.appendChild(messageDiv);
 }
 
-const generateParks = parkArr => {
+const generateParks = (parkArr) => {
   const movieContainer = document.getElementById("park-list_row");
-  movieContainer.innerHTML = "";
   for (let i = 0; i < parkArr.length; i++) {
     const parkKey = parkArr[i].key;
     const park = parkArr[i];
@@ -69,7 +62,6 @@ const generateParks = parkArr => {
       "col-lg-12",
       "col-xl-12",
       "py-3",
-      // "d-none",
       "park-container-transition"
     );
     parkDiv.id = parkKey + "-container";
@@ -91,6 +83,12 @@ const generateParks = parkArr => {
     movieContainer.appendChild(parkDiv);
     displayMovies(i, parkKey);
   }
+  
+  //Set button and queryDistance for next search
+  const findButton = document.getElementById('find-button')
+  queryDistance += 1;
+  findButton.innerHTML = "Search Further!";
+  findButton.classList.remove('invisible');
 };
 
 const displayMovies = (index, parkKey) => {

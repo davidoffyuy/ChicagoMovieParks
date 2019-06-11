@@ -1,11 +1,17 @@
 // Create movieData object. This object is global so it can be accessed by other functions.
 let myMovieData = "";
 let myMovies = [];
-let queryDistance = 0;
+
+// Separate global Minimum and Maximum distance values used so initial search will be from 0-1 miles.
+// After initial search, extended searches will search out in 0.5 mile increments.
+let gMinDist = 0; 
+let gMaxDist = 1;
+
+let parksDisplayed = 0;
 
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("find-button").addEventListener("click", event => {
-    getMovieData(queryDistance, queryDistance + 1);
+    getMovieData(gMinDist, gMaxDist);
   });
 });
 
@@ -34,7 +40,8 @@ const getMovieData = (minDist, maxDist) => {
         generateParks(myMovies);
       }
       else {
-        displayMessage("No Parks Found Near You");
+        displayMessage("No Parks Found!");
+        resetFind();
       }
     });
   });
@@ -83,19 +90,13 @@ const generateParks = (parkArr) => {
     movieContainer.appendChild(parkDiv);
     displayMovies(i, parkKey);
   }
-  
-  //Set button and queryDistance for next search
-  const findButton = document.getElementById('find-button')
-  queryDistance += 1;
-  findButton.innerHTML = "Search Further!";
-  findButton.classList.remove('invisible');
 };
 
 const displayMovies = (index, parkKey) => {
   const parkMoviesDiv = document.getElementById(parkKey + "_card-movies");
   parkMoviesDiv.innerHTML = "";
   const parkLength = myMovies[index].movies.length;
-  let parkCounter = 0;
+  let movieCounter = 0;
 
   for (let movie of myMovies[index].movies) {
     const movieDiv = document.createElement("div");
@@ -118,11 +119,27 @@ const displayMovies = (index, parkKey) => {
       `;
       parkMoviesDiv.appendChild(movieDiv);
 
-      parkCounter++;
-      if (parkCounter === parkLength) {
+      movieCounter++;
+      
+      // if all movies for the park have been displayed, display park
+      if (movieCounter === parkLength) {
         const parkContainerDiv = document.getElementById(parkKey + "-container");
         parkContainerDiv.classList.add('show');
+        parksDisplayed += 1;
+        if (parksDisplayed === myMovies.length ) {
+          resetFind();
+        }
       }
     });
   }
 };
+
+const resetFind = () => {
+    //Set button and queryDistance for next search
+    const findButton = document.getElementById('find-button')
+    gMinDist = gMaxDist;
+    gMaxDist += 0.5;
+    parksDisplayed = 0;
+    findButton.innerHTML = "Search Further!";
+    findButton.classList.remove('invisible');
+}

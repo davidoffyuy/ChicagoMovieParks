@@ -87,26 +87,41 @@ class movieData {
   getMoviesNearByPark(lat, long, dist) {
     const self = this;
     const moviesNear = self.getMoviesNear(lat, long, dist);
-    const moviesNearByPark = {};
+    const moviesNearByParkObj = {};
 
     for (let movie of moviesNear) {
       let parkKey = movie.park.replace(/[^A-Z0-9]/ig, '');
 
       // Check if park exists already. If it does, add to array. Else create new key
-      if (parkKey in moviesNearByPark) {
-        moviesNearByPark[parkKey].movies.push({...movie});
+      if (parkKey in moviesNearByParkObj) {
+        moviesNearByParkObj[parkKey].movies.push({...movie});
       }
       else {
         let parkDistance = calcLatLongDist(lat, long, movie.location.coordinates[1], movie.location.coordinates[0]);
-        console.log(parkDistance);
-        moviesNearByPark[parkKey] = {
+        moviesNearByParkObj[parkKey] = {
           movies: [{...movie}],
           distance: parkDistance
         };
       }
     } 
-    console.log(moviesNearByPark);
-    return moviesNearByPark;
+
+    // Convert Object to Array for sorting purposes
+    const moviesNearByParkArr = [];
+    const parkKeys = Object.keys(moviesNearByParkObj);
+    const parkValues = Object.values(moviesNearByParkObj);
+    for (let i = 0; i < parkKeys.length; i++) {
+      moviesNearByParkArr.push({...parkValues[i], key: parkKeys[i]});
+    }
+
+    // Sort park by distance
+    moviesNearByParkArr.sort((first, second) => {
+      if (first.distance < second.distance)
+        return -1;
+      else
+        return 1;
+    });
+
+    return moviesNearByParkArr;
   }
 }
 

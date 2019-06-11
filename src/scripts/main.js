@@ -48,11 +48,12 @@ const displayMessage = message  => {
   movieContainer.appendChild(messageDiv);
 }
 
-const generateParks = parkData => {
+const generateParks = parkArr => {
   const movieContainer = document.getElementById("park-list_row");
   movieContainer.innerHTML = "";
-  for (let parkKey in parkData) {
-    const park = parkData[parkKey];
+  for (let i = 0; i < parkArr.length; i++) {
+    const parkKey = parkArr[i].key;
+    const park = parkArr[i];
     const parkDiv = document.createElement("div");
     parkDiv.classList.add(
       "col-12",
@@ -81,17 +82,17 @@ const generateParks = parkData => {
       </div>
     `;
     movieContainer.appendChild(parkDiv);
-    displayMovies(parkKey);
+    displayMovies(i, parkKey);
   }
 };
 
-const displayMovies = parkKey => {
+const displayMovies = (index, parkKey) => {
   const parkMoviesDiv = document.getElementById(parkKey + "_card-movies");
   parkMoviesDiv.innerHTML = "";
-  const parkLength = myMovies[parkKey].movies.length;
+  const parkLength = myMovies[index].movies.length;
   let parkCounter = 0;
 
-  for (let movie of myMovies[parkKey].movies) {
+  for (let movie of myMovies[index].movies) {
     const movieDiv = document.createElement("div");
     const movieDate = moment(movie.date);
     const lat = movie.location.coordinates[1];

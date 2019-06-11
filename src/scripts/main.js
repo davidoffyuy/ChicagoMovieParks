@@ -72,10 +72,11 @@ const generateParks = parkData => {
       2
     )} miles) </h4>
             <div id="${parkKey}_card-movies" class="container row">
+            <!--- Movie Content Goes Here -->
             </div>
-            <a href="http://maps.google.com/maps?z=12&t=m&q=loc:${park.movies[0].location.coordinates[1]}+${
+            <div class="text-center"><a href="http://maps.google.com/maps?z=12&t=m&q=loc:${park.movies[0].location.coordinates[1]}+${
       park.movies[0].location.coordinates[0]
-    }" class="btn btn-primary">Show Location</a>
+    }" class="btn btn-success btn-block">Show Location on Google Maps</a><div>
         </div>
       </div>
     `;
@@ -104,7 +105,7 @@ const displayMovies = parkKey => {
           <div class="card-body">
             <h5 class="card-title">${movie.title}</h5>
             <div>${movieDate.format("dddd, MMMM Do YYYY")}</div>
-            <div>Sunset Showing Time - ${sunsetTime.format("h:mm a")}</div>
+            <div>Sunset Time - ${sunsetTime.format("h:mm a")}</div>
             <div>Rating: ${movie.rating}</div>
           </div>
         </div>

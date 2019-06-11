@@ -8,9 +8,7 @@
   height: 4em;
 }
 .loader {
-  position: fixed;
-  left: 50%;
-  top: 20%;
+  position: relative;
   z-index: 1000;
   color: #606060;
   text-indent: -9999em;

@@ -1,3 +1,11 @@
+.banner {
+  background: url(./images/banner.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: 100vw;
+  height: 30vh;
+}
+
 .show {
   opacity: 1 !important;
   visibility: visible !important;

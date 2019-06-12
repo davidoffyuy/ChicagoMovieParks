@@ -18,31 +18,62 @@
   font-size: 1.5rem;
 }
 
+#park-list_container {
+  padding: 0 0.5rem;
+  overflow: hidden;
+}
+
 @media (min-width: 576px) {
+  
   .banner-text {
     font-size: 2rem;
   }
+
+  #park-list_container {
+    padding: 0 1.5rem;
+  }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  
   .banner-text {
     font-size: 2.5rem;
-  }  
+  }
+  
+  #park-list_container {
+    padding: 0 2rem;
+    max-width: 1200px;
+  }
+
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
   .banner-text {
     font-size: 3.5rem;
   }
+
+  #park-list_container {
+    padding: 0 2.5rem;
+  }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
   .banner-text {
     font-size: 4rem;
   }
+
+
+  #park-list_container {
+    padding: 0 3rem;
+  }
+
 }
 
 

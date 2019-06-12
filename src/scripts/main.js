@@ -83,7 +83,7 @@ const generateParks = (parkArr) => {
             </div>
             <div class="text-center"><a href="http://maps.google.com/maps?z=12&t=m&q=loc:${park.movies[0].location.coordinates[1]}+${
       park.movies[0].location.coordinates[0]
-    }" class="btn btn-success btn-block">Show Location on Google Maps</a><div>
+    }" class="btn btn-success" style="width: 50%; min-width: 300px;">Show Location on Google Maps</a><div>
         </div>
       </div>
     `;

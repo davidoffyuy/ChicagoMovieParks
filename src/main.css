@@ -2,9 +2,49 @@
   background: url(./images/banner.jpg);
   background-size: cover;
   background-position: bottom;
+  background-repeat: no-repeat;
   width: 100vw;
-  height: 30vh;
+  height: 25vh;
+  max-height: 472px; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
+
+.banner-text {
+  text-align: center;
+  transform: scale(1, 2);
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .banner-text {
+    font-size: 2rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .banner-text {
+    font-size: 2.5rem;
+  }  
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .banner-text {
+    font-size: 3.5rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .banner-text {
+    font-size: 4rem;
+  }
+}
+
 
 .show {
   opacity: 1 !important;

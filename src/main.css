@@ -28,7 +28,7 @@
   -moz-transition: background-color .5s linear;
   -o-transition: background-color .5s linear;
   transition: background-color .5s linear;
-  animation: info-colorflash 1s 1s 2 linear;
+  animation: info-colorflash 1s 0.6s 2 linear;
 }
 
 #info-icon_container:hover {

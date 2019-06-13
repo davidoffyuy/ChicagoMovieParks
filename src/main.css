@@ -18,6 +18,37 @@
   font-size: 1.5rem;
 }
 
+#info-icon_container {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  border-radius: 8%;
+  background-color: rgba(206, 206, 206, 0.8);
+  -webkit-transition: background-color .5s linear;
+  -moz-transition: background-color .5s linear;
+  -o-transition: background-color .5s linear;
+  transition: background-color .5s linear;
+  animation: info-colorflash 1s 1s 2 linear;
+}
+
+#info-icon_container:hover {
+  background-color: rgb(255, 0, 0, 0.8);
+  -webkit-transition: background-color .5s linear;
+  -moz-transition: background-color .5s linear;
+  -o-transition: background-color .5s linear;
+  transition: background-color .5s linear;
+}
+
+@keyframes info-colorflash {
+  33%  {background-color: rgb(255, 0, 0, 0.8)}
+  66%  {background-color: rgba(206, 206, 206, 0.8);}
+}
+
+#info-icon {
+  height: 3rem;
+  width: 3rem;
+}
+
 #park-list_container {
   padding: 0 0.5rem;
   overflow: hidden;

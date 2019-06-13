@@ -13,9 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("find-button").addEventListener("click", event => {
     getMovieData(gMinDist, gMaxDist);
   });
-
-  // Using jquery to setup tooltips for Bootstrap
-  $("body").tooltip({ selector: '[data-toggle=tooltip]' });
 });
 
 const getMovieData = (minDist, maxDist) => {

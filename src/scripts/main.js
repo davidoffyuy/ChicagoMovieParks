@@ -127,7 +127,7 @@ const displayMovies = (index, parkKey) => {
       // if all movies for the park have been displayed, display park
       if (movieCounter === parkLength) {
         const parkContainerDiv = document.getElementById(parkKey + "-container");
-        parkContainerDiv.classList.add('show');
+        parkContainerDiv.classList.add('force-show');
         parksDisplayed += 1;
         if (parksDisplayed === myMovies.length ) {
           resetFind();

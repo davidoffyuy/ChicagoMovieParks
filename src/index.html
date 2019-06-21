@@ -23,27 +23,12 @@
     <title>Find Chicago Movies at the Park Near Me</title>
   </head>
   <body>
-    <main>
-      <!-- Banner -->
-      <div class="banner mb-5">
-        <div class="banner-text">Chicago Movies at the Park</div>
-      </div>
-
-      <!-- Info Icon Button -->
-      <div
-        id="info-icon_container"
-        data-toggle="modal"
-        onclick="$('#info-modal').modal({show: true, backdrop: false})"
-      >
-        <img id="info-icon" src="./images/info.svg" />
-      </div>
-
-      <!-- Info Modal -->
-      <div id="info-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="..." aria-hidden="true">
+    <!-- Info Modal -->
+    <div id="info-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="..." aria-hidden="true" data-backdrop="false" >
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">
+              <h5 class="modal-title" id="modal-title">
                 About Chicago Movie Parks
               </h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -86,6 +71,22 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <main>
+      <!-- Banner -->
+      <div class="banner mb-5">
+        <div class="banner-text">Chicago Movies at the Park</div>
+      </div>
+
+      <!-- Info Icon Button -->
+      <div
+        id="info-icon_container"
+        data-toggle="modal"
+        onclick="$('#info-modal').modal({show: true, backdrop: true})"
+      >
+        <img id="info-icon" src="./images/info.svg" />
       </div>
 
       <!-- Main Content for Parks and Movies -->

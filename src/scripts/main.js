@@ -1,6 +1,6 @@
 // Create movieData object. This object is global so it can be accessed by other functions.
-let myMovieData = "";
-let myMovies = [];
+let myMovieData = ""; // Class to hold raw movie data
+let myMovies = []; // Object formatted for best usage to display the parks and each movie
 
 // Separate global Minimum and Maximum distance values used so initial search will be from 0-1 miles.
 // After initial search, extended searches will search out in 0.5 mile increments.
@@ -61,6 +61,11 @@ const generateParks = (parkArr) => {
   for (let i = 0; i < parkArr.length; i++) {
     const parkKey = parkArr[i].key;
     const park = parkArr[i];
+
+    // Generate google maps url
+    const parkNameArr = park.movies[0].park.split(' ');
+    const parkNameURL = "https://www.google.com/maps/search/?api=1&query=" + parkNameArr.join('+') + "+Chicago+IL";
+
     const parkDiv = document.createElement("div");
     parkDiv.classList.add(
       "col-12",
@@ -81,9 +86,7 @@ const generateParks = (parkArr) => {
             <div id="${parkKey}_card-movies" class="container row">
             <!--- Movie Content Goes Here -->
             </div>
-            <div class="text-center"><a href="http://maps.google.com/maps?z=12&t=m&q=loc:${park.movies[0].location.coordinates[1]}+${
-      park.movies[0].location.coordinates[0]
-    }" class="btn btn-success" style="width: 50%; min-width: 300px;">Show Location on Google Maps</a><div>
+            <div class="text-center"><a href="${parkNameURL}" target="_blank" class="btn btn-success" style="width: 50%; min-width: 300px;">Show Location on Google Maps</a><div>
         </div>
       </div>
     `;

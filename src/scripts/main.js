@@ -27,12 +27,29 @@ const getMovieData = (minDist, maxDist) => {
   navigator.geolocation.getCurrentPosition(position => {
     myLat = position.coords.latitude;
     myLong = position.coords.longitude;
-    // const myLat = 40;
-    // const myLong = -87;
+    // myLat = 40;
+    // myLong = -87;
 
-    // Fetch movies and print on screen.
-    myMovieData = new movieData();
-    myMovieData.fetchData(() => {
+    // Fetch movie data, if haven't done so. If movie data has been fetched, skip this step.
+    // Print movies on screen.
+    if (!myMovieData) {
+      myMovieData = new movieData();
+      myMovieData.fetchData(() => {
+        myMovies = myMovieData.getMoviesNearByPark(myLat, myLong, minDist, maxDist);
+  
+        // Hide loader and show button again
+        document.getElementById("global-loader").classList.add("d-none");
+  
+        if (!jQuery.isEmptyObject(myMovies)) {
+          generateParks(myMovies);
+        }
+        else {
+          displayMessage("No Parks Found!");
+          resetFind();
+        }
+      });
+    }
+    else {
       myMovies = myMovieData.getMoviesNearByPark(myLat, myLong, minDist, maxDist);
 
       // Hide loader and show button again
@@ -45,20 +62,22 @@ const getMovieData = (minDist, maxDist) => {
         displayMessage("No Parks Found!");
         resetFind();
       }
-    });
+    }
   });
 };
 
 const displayMessage = message  => {
-  const movieContainer = document.getElementById("park-list_row");
+  const messageContainer = document.getElementById("message_row");
+  messageContainer.innerHTML = '';
   const messageDiv = document.createElement('div');
 
-  messageDiv.classList.add("text-center", "mx-auto", "py-3");
+  messageDiv.classList.add("text-center", "mx-auto", "py-3", "h4");
   messageDiv.innerHTML = message;
-  movieContainer.appendChild(messageDiv);
+  messageContainer.appendChild(messageDiv);
 }
 
 const generateParks = (parkArr) => {
+  document.getElementById("message_row").innerHTML = '';
   const movieContainer = document.getElementById("park-list_row");
   for (let i = 0; i < parkArr.length; i++) {
     const parkKey = parkArr[i].key;

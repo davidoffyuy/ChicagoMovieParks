@@ -49,7 +49,8 @@
   width: 3rem;
 }
 
-#park-list_container {
+#park-list_container,
+#message_container {
   padding: 0 0.5rem;
   overflow: hidden;
 }

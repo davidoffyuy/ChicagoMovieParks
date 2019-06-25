@@ -150,7 +150,7 @@ const generateParks = (parkArr) => {
           <h4 class="card-title">${park.movies[0].park}: ${park.movies[0].park_address} (${park.distance.toFixed(
       2
     )} miles) </h4>
-            <div id="${parkKey}_card-movies" class="container row">
+            <div id="${parkKey}_card-movies" class="container row movie-row">
             <!--- Movie Content Goes Here -->
             </div>
             <div class="text-center"><a href="${parkNameURL}" target="_blank" class="btn btn-success" style="width: 50%; min-width: 300px;">Show Location on Google Maps</a><div>

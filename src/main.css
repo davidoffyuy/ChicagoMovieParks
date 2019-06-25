@@ -1,3 +1,9 @@
+/* used to override row for movie cards to remove the -15 left and right margin */
+.movie-row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .banner {
   background: url(./images/banner.jpg);
   background-size: cover;

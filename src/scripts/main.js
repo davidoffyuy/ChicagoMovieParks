@@ -24,12 +24,49 @@ const getMovieData = (minDist, maxDist) => {
   document.getElementById('find-button').classList.add('invisible');
   
   // Get location of myself
-  navigator.geolocation.getCurrentPosition(position => {
-    myLat = position.coords.latitude;
-    myLong = position.coords.longitude;
-    // myLat = 40;
-    // myLong = -87;
-
+  if (!myLat || !myLong) {
+    navigator.geolocation.getCurrentPosition(position => {
+      myLat = position.coords.latitude;
+      myLong = position.coords.longitude;
+      // myLat = 40;
+      // myLong = -87;
+  
+      // Fetch movie data, if haven't done so. If movie data has been fetched, skip this step.
+      // Print movies on screen.
+      if (!myMovieData) {
+        myMovieData = new movieData();
+        myMovieData.fetchData(() => {
+          myMovies = myMovieData.getMoviesNearByPark(myLat, myLong, minDist, maxDist);
+    
+          // Hide loader and show button again
+          document.getElementById("global-loader").classList.add("d-none");
+    
+          if (!jQuery.isEmptyObject(myMovies)) {
+            generateParks(myMovies);
+          }
+          else {
+            displayMessage("No Parks Found!");
+            resetFind();
+          }
+        });
+      }
+      else {
+        myMovies = myMovieData.getMoviesNearByPark(myLat, myLong, minDist, maxDist);
+  
+        // Hide loader and show button again
+        document.getElementById("global-loader").classList.add("d-none");
+  
+        if (!jQuery.isEmptyObject(myMovies)) {
+          generateParks(myMovies);
+        }
+        else {
+          displayMessage("No Parks Found!");
+          resetFind();
+        }
+      }
+    });    
+  }
+  else {
     // Fetch movie data, if haven't done so. If movie data has been fetched, skip this step.
     // Print movies on screen.
     if (!myMovieData) {
@@ -63,7 +100,7 @@ const getMovieData = (minDist, maxDist) => {
         resetFind();
       }
     }
-  });
+  }
 };
 
 const displayMessage = message  => {

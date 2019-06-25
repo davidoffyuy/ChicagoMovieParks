@@ -1,6 +1,8 @@
 // Create movieData object. This object is global so it can be accessed by other functions.
 let myMovieData = ""; // Class to hold raw movie data
 let myMovies = []; // Object formatted for best usage to display the parks and each movie
+let myLat = '';
+let myLong = '';
 
 // Separate global Minimum and Maximum distance values used so initial search will be from 0-1 miles.
 // After initial search, extended searches will search out in 0.5 mile increments.
@@ -23,8 +25,8 @@ const getMovieData = (minDist, maxDist) => {
   
   // Get location of myself
   navigator.geolocation.getCurrentPosition(position => {
-    const myLat = position.coords.latitude;
-    const myLong = position.coords.longitude;
+    myLat = position.coords.latitude;
+    myLong = position.coords.longitude;
     // const myLat = 40;
     // const myLong = -87;
 
@@ -63,8 +65,17 @@ const generateParks = (parkArr) => {
     const park = parkArr[i];
 
     // Generate google maps url
+    const parkAddressArr = park.movies[0].park_address.split(' ');
+    uriParkAddressArr = parkAddressArr.map(word => {
+      return encodeURIComponent(word);
+    })
+
     const parkNameArr = park.movies[0].park.split(' ');
-    const parkNameURL = "https://www.google.com/maps/search/?api=1&query=" + parkNameArr.join('+') + "+Chicago+IL";
+    uriParkNameArr = parkNameArr.map(word => {
+      return encodeURIComponent(word);
+    })
+
+    const parkNameURL = "https://www.google.com/maps/search/?api=1&query=" + uriParkNameArr.join('+') + uriParkAddressArr.join('+') + "+Chicago+IL";
 
     const parkDiv = document.createElement("div");
     parkDiv.classList.add(

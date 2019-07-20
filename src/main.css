@@ -126,3 +126,13 @@
   -moz-transition: opacity 1s linea,r visibility 1s linear;
   -webkit-transition: opacity 1s linear, visibility 1s linear;
 }
+
+.expired-notice {
+  color: red;
+  font-style: italic;
+}
+
+.soon-notice {
+  color: green;
+  font-weight: bold;
+}

@@ -166,7 +166,7 @@ const displayMovies = (index, parkKey) => {
   const parkMoviesDiv = document.getElementById(parkKey + "_card-movies");
   parkMoviesDiv.innerHTML = "";
   const parkLength = myMovies[index].movies.length;
-  let movieCounter = 0;
+  let movieCounter = 0; //Used to keep track of # movies displayed for theater
 
   for (let movie of myMovies[index].movies) {
     const movieDiv = document.createElement("div");
@@ -181,6 +181,7 @@ const displayMovies = (index, parkKey) => {
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">${movie.title}</h5>
+            <div id="${parkKey + '-notice'}" ></div>
             <div>${movieDate.format("dddd, MMMM Do YYYY")}</div>
             <div>Sunset Time - ${sunsetTime.format("h:mm a")}</div>
             <div>Rating: ${movie.rating}</div>
@@ -188,6 +189,20 @@ const displayMovies = (index, parkKey) => {
         </div>
       `;
       parkMoviesDiv.appendChild(movieDiv);
+
+      // Determine if movie is past date or coming up soon
+      let noticeDiv = document.getElementById(parkKey + '-notice');
+      const sevenDaysAhead = moment().add(14, 'd');
+
+      if (movieDate.isBefore(moment())) {
+        noticeDiv.classList.add("expired-notice")
+        noticeDiv.innerHTML = 'Expired';
+      }
+      else if (movieDate.isBefore(sevenDaysAhead)) {
+        noticeDiv.classList.add("soon-notice")
+        noticeDiv.innerHTML = 'Coming Up';
+      }
+
 
       movieCounter++;
       
